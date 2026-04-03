@@ -1,0 +1,35 @@
+{
+  "snapshot": "TEMPLATE_FETCH_CONTRACT_SNAPSHOT",
+  "template_unique_locator": {
+    "description": "唯一模板定位由以下组合确定：",
+    "components": ["moduleId", "scenarioId", "stage", "authority", "templateKey"]
+  },
+  "execution_contract": [
+    "生成层先用 moduleId + chainId + stageIndex + dept 从 chain_stage_contract 取到 priorityKeys",
+    "逐个 templateKey 调用 fetchTemplateByStageAuthority(moduleId, scenarioId, stage, authority, templateKey, locale)",
+    "fetchTemplateByStageAuthority 要求 stage 和 authority 非空，否则直接报错 stage-authority-required",
+    "fetchTemplateByStageAuthority 内部只做 fetchTemplateByKey 精确键读取",
+    "fetchTemplateByKey 只查 scenarioId.templates 下的精确 templateKey，不扫描、不模糊匹配、不自动替换",
+    "任何未命中直接失败，不做补模板"
+  ],
+  "hard_forbidden_items": [
+    "禁止 stage fallback",
+    "禁止 authority fallback",
+    "禁止 en fallback",
+    "禁止 cross-authority merge",
+    "禁止 whole-chain merge"
+  ],
+  "blocking_points_in_current_repo": [
+    "getStageContract 仅查 moduleId_chainId 键，不做 chain 级回退",
+    "getAllStageContracts 仅返回 moduleId_chainId，不做回退",
+    "getTemplateKeyPriority 对缺失 contract 或缺失 dept map 直接抛错",
+    "getTemplateKeyPriority 检测到通配符即抛错 wildcard-template-forbidden",
+    "contentAdapter 的 fetchTemplateByStageAuthority 只转发到 fetchTemplateByKey 精确查询",
+    "generateService 仅输出单一 selectedTemplate，不做多模板拼接，不做整链拼接"
+  ],
+  "alignment_conclusion": {
+    "description": "可作为内容库仓库对齐唯一依据的结论",
+    "allowed_per_generation": ["唯一 authority", "唯一 stage", "唯一 template"],
+    "failure_rule": "任一条件不满足时直接报错并阻断生成"
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "snapshot": "CHAIN_STAGE_CONTRACT_SNAPSHOT",
+  "modules": [
+    {
+      "module": "CONDO",
+      "chains": [
+        {
+          "chainId": "RECORD_CHAIN",
+          "stages_in_order": ["record_request", "cat_stage1", "cat_stage2", "court_small_claim"],
+          "stages": [
+            {
+              "stage": "record_request",
+              "authority": "CONDO_CORP",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "cat_stage1",
+              "terminal": false
+            },
+            {
+              "stage": "cat_stage1",
+              "authority": "CAT",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "cat_stage2",
+              "terminal": false
+            },
+            {
+              "stage": "cat_stage2",
+              "authority": "CAT",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "court_small_claim",
+              "terminal": false
+            },
+            {
+              "stage": "court_small_claim",
+              "authority": "SMALL_CLAIMS",
+              "allowCompensation": true,
+              "allowPenalty": false,
+              "nextStage": "none",
+              "terminal": true
+            }
+          ]
+        },
+        {
+          "chainId": "MIXED_CHAIN",
+          "stages_in_order": ["record", "complaint", "regulator", "court"],
+          "stages": [
+            {
+              "stage": "record",
+              "authority": "CONDO_BOARD_DEMAND",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "complaint",
+              "terminal": false
+            },
+            {
+              "stage": "complaint",
+              "authority": "CONDO_CAT_ORDINARY",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "regulator",
+              "terminal": false
+            },
+            {
+              "stage": "regulator",
+              "authority": "CONDO_MUNICIPAL",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "court",
+              "terminal": false
+            },
+            {
+              "stage": "court",
+              "authority": "CONDO_COURT_SC",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "none",
+              "terminal": true
+            }
+          ]
+        },
+        {
+          "chainId": "COURT_CHAIN",
+          "stages_in_order": ["claim", "hearing", "judgment"],
+          "stages": [
+            {
+              "stage": "claim",
+              "authority": "CONDO_COURT_SC",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "hearing",
+              "terminal": false
+            },
+            {
+              "stage": "hearing",
+              "authority": "CONDO_COURT_SC",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "judgment",
+              "terminal": false
+            },
+            {
+              "stage": "judgment",
+              "authority": "CONDO_COURT_SUP",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "none",
+              "terminal": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "module": "CRA",
+      "chains": [
+        {
+          "chainId": "INTERNAL_COMPLAINT_CHAIN",
+          "stages_in_order": ["frontline", "supervisor", "complaint"],
+          "stages": [
+            {
+              "stage": "frontline",
+              "authority": "CRA_COMPLAINT",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "supervisor",
+              "terminal": false
+            },
+            {
+              "stage": "supervisor",
+              "authority": "CRA_INTERNAL_REVIEW",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "complaint",
+              "terminal": false
+            },
+            {
+              "stage": "complaint",
+              "authority": "CRA_TAX_COURT",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "tax_court",
+              "terminal": false
+            }
+          ]
+        },
+        {
+          "chainId": "REVIEW_APPEAL_CHAIN",
+          "stages_in_order": ["objection", "appeal", "court"],
+          "stages": [
+            {
+              "stage": "objection",
+              "authority": "CRA_OBJECTION",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "appeal",
+              "terminal": false
+            },
+            {
+              "stage": "appeal",
+              "authority": "CRA_INTERNAL_REVIEW",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "court",
+              "terminal": false
+            },
+            {
+              "stage": "court",
+              "authority": "CRA_TAX_COURT",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "none",
+              "terminal": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "module": "TENANT(TL)",
+      "chains": [
+        {
+          "chainId": "REGULATOR_CHAIN",
+          "stages_in_order": ["report", "investigation", "enforcement"],
+          "stages": [
+            {
+              "stage": "report",
+              "authority": "TL_TENANT_DEMAND",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "investigation",
+              "terminal": false
+            },
+            {
+              "stage": "investigation",
+              "authority": "TL_LTB_TENANT",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "enforcement",
+              "terminal": false
+            },
+            {
+              "stage": "enforcement",
+              "authority": "TL_LTB_TENANT",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "court",
+              "terminal": false
+            }
+          ]
+        },
+        {
+          "chainId": "DEMAND_CHAIN",
+          "stages_in_order": ["demand", "escalation", "court"],
+          "stages": [
+            {
+              "stage": "demand",
+              "authority": "TL_LANDLORD_DEMAND",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "escalation",
+              "terminal": false
+            },
+            {
+              "stage": "escalation",
+              "authority": "TL_LTB_LANDLORD",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "court",
+              "terminal": false
+            },
+            {
+              "stage": "court",
+              "authority": "TL_COURT",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "none",
+              "terminal": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "module": "INSURANCE",
+      "chains": [
+        {
+          "chainId": "INTERNAL_COMPLAINT_CHAIN",
+          "stages_in_order": ["frontline", "supervisor", "complaint"],
+          "stages": [
+            {
+              "stage": "frontline",
+              "authority": "INS_INTERNAL",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "supervisor",
+              "terminal": false
+            },
+            {
+              "stage": "supervisor",
+              "authority": "INS_OMBUDS",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "complaint",
+              "terminal": false
+            },
+            {
+              "stage": "complaint",
+              "authority": "INS_REGULATOR",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "tribunal, court",
+              "terminal": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "module": "CONSUMER",
+      "chains": [
+        {
+          "chainId": "REGULATOR_CHAIN",
+          "stages_in_order": ["report", "investigation", "enforcement"],
+          "stages": [
+            {
+              "stage": "report",
+              "authority": "CON_MERCHANT",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "investigation",
+              "terminal": false
+            },
+            {
+              "stage": "investigation",
+              "authority": "CON_REGULATOR",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "enforcement",
+              "terminal": false
+            },
+            {
+              "stage": "enforcement",
+              "authority": "CON_REGULATOR",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "court",
+              "terminal": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "module": "WORKPLACE",
+      "chains": [
+        {
+          "chainId": "INTERNAL_COMPLAINT_CHAIN",
+          "stages_in_order": ["frontline", "supervisor", "complaint"],
+          "stages": [
+            {
+              "stage": "frontline",
+              "authority": "WP_INTERNAL",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "supervisor",
+              "terminal": false
+            },
+            {
+              "stage": "supervisor",
+              "authority": "WP_ESA",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "complaint",
+              "terminal": false
+            },
+            {
+              "stage": "complaint",
+              "authority": "WP_WSIB",
+              "allowCompensation": false,
+              "allowPenalty": false,
+              "nextStage": "hrto, labour_board, court",
+              "terminal": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

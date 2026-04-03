@@ -1,0 +1,307 @@
+{
+  "snapshot": "AUTHORITY_SCOPE_SNAPSHOT",
+  "modules": [
+    {
+      "module": "CONDO",
+      "authorities": [
+        {
+          "authority": "CONDO_BOARD_DEMAND",
+          "allowed_topics": ["record_request", "reply_obligation", "compliance_correction", "management_correction", "require_response", "stop_ongoing_violation", "repair_demand", "maintenance_request", "rule_compliance"],
+          "forbidden_topics": ["administrative_penalty", "court_damages", "cat_exclusive_matter", "unauthorized_fine", "criminal_complaint"],
+          "allowed_reliefs": ["provide_records", "confirm_fee", "acknowledge_request", "correct_violation", "stop_ongoing_breach", "schedule_repair", "provide_written_response"],
+          "forbidden_reliefs": ["fine", "punitive_damages", "injunction", "court_order", "general_management_incompetence_compensation", "criminal_penalty"],
+          "forbidden_terms": ["罚款", "惩罚", "惩罚性赔偿", "精神损害", "法院命令", "禁令", "injunction", "punitive damages", "fine of", "penalty of", "criminal", "sue for damages", "court order"]
+        },
+        {
+          "authority": "CONDO_CAO_RECORD",
+          "allowed_topics": ["statutory_record_request", "time_limit_compliance", "fee_calculation", "reply_completeness", "core_records", "non_core_records", "cao_record_procedure"],
+          "forbidden_topics": ["fine", "broad_management_damages", "court_injunction", "general_tort_damages", "punitive_award"],
+          "allowed_reliefs": ["provide_records", "confirm_fee", "acknowledge_timeline", "cure_incomplete_reply", "provide_missing_documents"],
+          "forbidden_reliefs": ["fine", "punitive_damages", "broad_management_reform", "injunction", "general_misconduct_compensation"],
+          "forbidden_terms": ["罚款", "惩罚", "惩罚性赔偿", "精神损害", "禁令", "injunction", "punitive", "fine of", "court order", "damages for negligence", "sue"]
+        },
+        {
+          "authority": "CONDO_CAT_RECORD",
+          "allowed_topics": ["record_dispute_filing", "provide_records_order", "correct_non_compliant_reply", "procedural_fee_dispute", "procedural_timeline_dispute", "cat_record_jurisdiction"],
+          "forbidden_topics": ["fine", "general_management_reform", "general_misconduct_damages", "court_remedy", "criminal_complaint", "human_rights_claim"],
+          "allowed_reliefs": ["order_to_provide_records", "procedural_compliance_order", "fee_timeline_correction", "correct_incomplete_response", "cat_costs_within_jurisdiction"],
+          "forbidden_reliefs": ["fine", "punitive_damages", "comprehensive_management_reform", "general_misconduct_compensation", "court_costs_award", "non_record_management_negligence_relief", "injunction", "damages_beyond_cat_scope"],
+          "forbidden_terms": ["罚款", "惩罚", "惩罚性赔偿", "精神损害", "禁令", "全面整改命令", "广义管理不当赔偿", "法院费用裁判", "非记录范围管理失职救济", "injunction", "punitive", "fine of", "mandatory court order", "damages beyond records", "comprehensive reform", "mental distress damages", "court costs award", "sue for", "criminal"]
+        },
+        {
+          "authority": "CONDO_CAT_ORDINARY",
+          "allowed_topics": ["cat_jurisdiction_dispute", "condo_tribunal_matter", "records_outside_standard_chain", "limited_order_remedy_within_cat", "compliance_direction"],
+          "forbidden_topics": ["beyond_cat_broad_damages", "superior_court_exclusive", "municipal_enforcement", "human_rights_beyond_cat", "criminal"],
+          "allowed_reliefs": ["limited_compliance_order", "remedial_action_within_cat_scope", "declaration_within_cat"],
+          "forbidden_reliefs": ["broad_damages", "superior_court_remedy", "municipal_enforcement_order", "punitive_damages", "injunction_from_superior_court"],
+          "forbidden_terms": ["罚款", "惩罚性赔偿", "精神损害", "高院禁令", "punitive", "fine of", "superior court injunction", "criminal", "municipal order"]
+        },
+        {
+          "authority": "CONDO_MUNICIPAL",
+          "allowed_topics": ["property_standards", "municipal_bylaw_enforcement", "inspection_order", "compliance_notice", "fire_code_violation"],
+          "forbidden_topics": ["private_damages_claim", "court_remedy", "corporate_governance_reform", "cat_exclusive_matter"],
+          "allowed_reliefs": ["inspection_order", "compliance_order", "property_standards_enforcement", "municipal_bylaw_enforcement"],
+          "forbidden_reliefs": ["private_compensation", "board_governance_change", "court_order", "cat_order"],
+          "forbidden_terms": ["损害赔偿", "惩罚", "damages", "punitive", "court order", "tribunal order"]
+        },
+        {
+          "authority": "CONDO_COURT_SC",
+          "allowed_topics": ["monetary_damages_claim", "declaration_of_rights", "breach_of_contract", "small_claims_relief"],
+          "forbidden_topics": ["administrative_agency_language", "tribunal_exclusive_procedure", "criminal_prosecution"],
+          "allowed_reliefs": ["monetary_damages", "declaration", "legal_costs_within_small_claims"],
+          "forbidden_reliefs": ["administrative_enforcement", "tribunal_exclusive_order", "injunction_from_sc"],
+          "forbidden_terms": ["administrative", "tribunal procedure", "regulatory compliance order"]
+        },
+        {
+          "authority": "CONDO_COURT_SUP",
+          "allowed_topics": ["injunction", "declaration", "superior_court_damages", "derivative_action", "oppression_remedy"],
+          "forbidden_topics": ["administrative_body_impersonation", "tribunal_exclusive_procedure"],
+          "allowed_reliefs": ["injunction", "damages", "declaration", "legal_costs", "derivative_action"],
+          "forbidden_reliefs": ["administrative_exclusive_remedy", "cat_order"],
+          "forbidden_terms": ["administrative order", "tribunal ruling", "regulatory directive"]
+        }
+      ]
+    },
+    {
+      "module": "CRA",
+      "authorities": [
+        {
+          "authority": "CRA_OBJECTION",
+          "allowed_topics": ["notice_of_objection", "tax_assessment_dispute", "deadline_extension_request"],
+          "forbidden_topics": ["service_complaint", "tax_court_exclusive", "criminal_tax_evasion"],
+          "allowed_reliefs": ["reassessment", "reduce_tax_owing", "waive_penalty_interest"],
+          "forbidden_reliefs": ["fine", "criminal_penalty", "court_injunction"],
+          "forbidden_terms": ["criminal", "fine the CRA", "sue CRA", "punitive", "injunction"]
+        },
+        {
+          "authority": "CRA_COMPLAINT",
+          "allowed_topics": ["service_quality_complaint", "processing_delay", "agent_misconduct"],
+          "forbidden_topics": ["tax_dispute", "criminal_allegation", "court_relief"],
+          "allowed_reliefs": ["service_improvement", "acknowledgement", "process_review"],
+          "forbidden_reliefs": ["fine", "punitive_damages", "court_order"],
+          "forbidden_terms": ["criminal", "punitive", "fine", "court order", "injunction"]
+        },
+        {
+          "authority": "CRA_INTERNAL_REVIEW",
+          "allowed_topics": ["internal_review_request", "disputed_assessment_review", "penalty_waiver"],
+          "forbidden_topics": ["court_exclusive", "criminal_evasion"],
+          "allowed_reliefs": ["reassessment", "penalty_waiver", "interest_relief"],
+          "forbidden_reliefs": ["punitive_damages", "court_judgment", "criminal_sanction"],
+          "forbidden_terms": ["criminal", "please fine", "court order", "punitive"]
+        },
+        {
+          "authority": "CRA_TAX_COURT",
+          "allowed_topics": ["tax_court_appeal", "formal_appeal_procedure", "limitation_period"],
+          "forbidden_topics": ["administrative_complaint", "service_complaint"],
+          "allowed_reliefs": ["court_reassessment", "reduction_of_tax", "costs_award"],
+          "forbidden_reliefs": ["administrative_fine", "punitive_damages_beyond_tax"],
+          "forbidden_terms": ["administrative order", "punitive", "fine the department"]
+        },
+        {
+          "authority": "CRA_SERVICE_COMPLAINT",
+          "allowed_topics": ["service_quality", "cra_ombudsperson", "systemic_issues"],
+          "forbidden_topics": ["tax_dispute", "court_exclusives"],
+          "allowed_reliefs": ["service_correction", "formal_acknowledgement", "systemic_review"],
+          "forbidden_reliefs": ["fine", "punitive_damages", "court_order"],
+          "forbidden_terms": ["fine", "punitive", "court order", "criminal", "injunction"]
+        }
+      ]
+    },
+    {
+      "module": "TENANT(TL)",
+      "authorities": [
+        {
+          "authority": "TL_LANDLORD_DEMAND",
+          "allowed_topics": ["rent_arrears", "lease_breach", "vacancy_notice", "property_damage"],
+          "forbidden_topics": ["human_rights", "repair_ltb_exclusive", "illegal_penalty"],
+          "allowed_reliefs": ["pay_arrears", "cure_breach", "vacate_premises"],
+          "forbidden_reliefs": ["fine", "punitive_damages", "illegal_lockout"],
+          "forbidden_terms": ["fine", "punitive", "criminal", "illegal lockout", "evict without notice"]
+        },
+        {
+          "authority": "TL_TENANT_DEMAND",
+          "allowed_topics": ["repair_maintenance", "illegal_entry", "rent_abatement", "harassment"],
+          "forbidden_topics": ["criminal_complaint", "human_rights_beyond_ltb", "punitive_damages_from_landlord"],
+          "allowed_reliefs": ["conduct_repairs", "stop_illegal_entry", "provide_habitability", "rent_reduction"],
+          "forbidden_reliefs": ["fine", "punitive_damages", "criminal_sanction"],
+          "forbidden_terms": ["fine", "punitive", "criminal charges", "evict landlord"]
+        },
+        {
+          "authority": "TL_LTB_TENANT",
+          "allowed_topics": ["ltb_t_applications", "repair_abatement", "harassment_order", "illegal_lock_out"],
+          "forbidden_topics": ["human_rights_beyond_ltb", "criminal", "punitive_award_outside_ltb"],
+          "allowed_reliefs": ["rent_abatement", "maintenance_order", "termination_tenant", "administrative_fine_within_rta"],
+          "forbidden_reliefs": ["punitive_damages_beyond_rta", "criminal_sanction", "court_injunction"],
+          "forbidden_terms": ["criminal", "punitive damages beyond RTA", "fine the landlord", "injunction from court"]
+        },
+        {
+          "authority": "TL_LTB_LANDLORD",
+          "allowed_topics": ["ltb_l_applications", "rent_arrears", "property_damage", "tenant_breach"],
+          "forbidden_topics": ["human_rights", "criminal_charge", "punitive_award"],
+          "allowed_reliefs": ["payment_order", "eviction_order", "rent_increase_application"],
+          "forbidden_reliefs": ["punitive_damages", "criminal_sanction", "fine"],
+          "forbidden_terms": ["criminal", "punitive", "fine the tenant", "injunction"]
+        },
+        {
+          "authority": "TL_HRTO",
+          "allowed_topics": ["human_rights_housing", "discrimination", "harassment_hrto"],
+          "forbidden_topics": ["standard_repair", "non_hr_rent_dispute", "criminal"],
+          "allowed_reliefs": ["accommodation", "monetary_remedy_hrto", "systemic_remedy"],
+          "forbidden_reliefs": ["punitive_damages_beyond_hrto", "criminal_sanction", "fine"],
+          "forbidden_terms": ["criminal", "fine", "punitive beyond HRTO"]
+        },
+        {
+          "authority": "TL_BYLAW",
+          "allowed_topics": ["property_standards", "zoning", "municipal_bylaw"],
+          "forbidden_topics": ["private_damages", "criminal", "ltb_exclusive"],
+          "allowed_reliefs": ["compliance_order", "inspection_order", "property_standards_enforcement"],
+          "forbidden_reliefs": ["private_damages", "fine_beyond_bylaw", "court_order"],
+          "forbidden_terms": ["punitive", "private damages", "court order"]
+        },
+        {
+          "authority": "TL_COURT",
+          "allowed_topics": ["monetary_claim", "declaration", "injunction"],
+          "forbidden_topics": ["ltb_exclusive_procedure", "administrative_language"],
+          "allowed_reliefs": ["monetary_damages", "declaration", "injunction", "legal_costs"],
+          "forbidden_reliefs": ["administrative_exclusive_order", "tribunal_procedure"],
+          "forbidden_terms": ["administrative order", "tribunal procedure", "regulatory directive"]
+        }
+      ]
+    },
+    {
+      "module": "INSURANCE",
+      "authorities": [
+        {
+          "authority": "INS_INTERNAL",
+          "allowed_topics": ["claim_dispute", "denial_review", "policy_interpretation", "delay_complaint"],
+          "forbidden_topics": ["court_remedy", "criminal", "punitive_damages"],
+          "allowed_reliefs": ["claim_approval", "reconsideration", "explanation_of_denial"],
+          "forbidden_reliefs": ["fine", "punitive_damages", "court_order"],
+          "forbidden_terms": ["criminal", "fine", "punitive", "court order", "injunction"]
+        },
+        {
+          "authority": "INS_OMBUDS",
+          "allowed_topics": ["internal_complaint_escalation", "fairness_review", "ombudsman_referral"],
+          "forbidden_topics": ["court_exclusive", "criminal", "punitive_damages"],
+          "allowed_reliefs": ["fair_settlement", "reconsideration", "mediated_resolution"],
+          "forbidden_reliefs": ["fine", "punitive_damages", "court_judgment"],
+          "forbidden_terms": ["criminal", "fine", "punitive", "court order"]
+        },
+        {
+          "authority": "INS_REGULATOR",
+          "allowed_topics": ["fsra_complaint", "insurer_misconduct", "regulatory_violation"],
+          "forbidden_topics": ["private_damages", "criminal", "punitive_award"],
+          "allowed_reliefs": ["regulatory_investigation", "compliance_order", "licence_review"],
+          "forbidden_reliefs": ["private_damages", "punitive_damages", "fine_from_regulator_to_claimant"],
+          "forbidden_terms": ["private damages", "punitive", "criminal", "court order"]
+        },
+        {
+          "authority": "INS_TRIBUNAL",
+          "allowed_topics": ["benefits_dispute", "accident_benefits", "lat_application", "fsco_dispute"],
+          "forbidden_topics": ["criminal", "punitive_beyond_tribunal", "court_exclusive"],
+          "allowed_reliefs": ["benefits_reinstatement", "arbitration_award", "interest_on_benefits"],
+          "forbidden_reliefs": ["punitive_damages_beyond_tribunal", "criminal_sanction", "fine"],
+          "forbidden_terms": ["criminal", "punitive beyond tribunal", "fine the insurer", "court injunction"]
+        },
+        {
+          "authority": "INS_COURT",
+          "allowed_topics": ["bad_faith_claim", "breach_of_contract", "declaratory_relief"],
+          "forbidden_topics": ["tribunal_exclusive", "administrative_language"],
+          "allowed_reliefs": ["damages", "declaration", "legal_costs", "punitive_damages_bad_faith"],
+          "forbidden_reliefs": ["administrative_exclusive_order"],
+          "forbidden_terms": ["administrative order", "tribunal ruling"]
+        }
+      ]
+    },
+    {
+      "module": "CONSUMER",
+      "authorities": [
+        {
+          "authority": "CON_MERCHANT",
+          "allowed_topics": ["refund_request", "warranty_demand", "misleading_representation", "contract_breach"],
+          "forbidden_topics": ["criminal", "punitive_damages_demand", "court_order_in_demand"],
+          "allowed_reliefs": ["refund", "replacement", "repair", "contract_cancellation"],
+          "forbidden_reliefs": ["fine", "punitive_damages", "court_injunction"],
+          "forbidden_terms": ["criminal", "fine", "punitive", "injunction", "court order"]
+        },
+        {
+          "authority": "CON_CHARGEBACK",
+          "allowed_topics": ["card_chargeback", "unauthorized_charge", "goods_not_received", "misrepresentation"],
+          "forbidden_topics": ["criminal", "punitive_award", "court_order"],
+          "allowed_reliefs": ["chargeback_granted", "provisional_credit", "dispute_resolution"],
+          "forbidden_reliefs": ["fine", "punitive_damages", "court_judgment"],
+          "forbidden_terms": ["criminal", "fine", "punitive", "court order"]
+        },
+        {
+          "authority": "CON_REGULATOR",
+          "allowed_topics": ["cpo_complaint", "consumer_protection_act_violation", "misleading_advertising"],
+          "forbidden_topics": ["private_damages", "criminal", "punitive_award"],
+          "allowed_reliefs": ["regulatory_investigation", "compliance_order", "merchant_licence_review"],
+          "forbidden_reliefs": ["private_damages", "punitive_damages", "fine_to_consumer"],
+          "forbidden_terms": ["private damages to me", "punitive", "criminal", "injunction"]
+        },
+        {
+          "authority": "CON_COURT",
+          "allowed_topics": ["small_claims_refund", "breach_of_contract", "monetary_recovery"],
+          "forbidden_topics": ["administrative_language", "regulatory_exclusive"],
+          "allowed_reliefs": ["monetary_damages", "legal_costs"],
+          "forbidden_reliefs": ["administrative_order", "regulatory_sanction"],
+          "forbidden_terms": ["administrative", "regulatory order", "compliance directive"]
+        }
+      ]
+    },
+    {
+      "module": "WORKPLACE",
+      "authorities": [
+        {
+          "authority": "WP_INTERNAL",
+          "allowed_topics": ["workplace_harassment", "safety_violation", "internal_grievance", "policy_breach"],
+          "forbidden_topics": ["esa_exclusive", "court_damages", "criminal"],
+          "allowed_reliefs": ["investigation", "correction_of_violation", "accommodation", "apology"],
+          "forbidden_reliefs": ["fine", "punitive_damages", "court_order", "criminal_sanction"],
+          "forbidden_terms": ["criminal", "fine", "punitive", "court order", "sue"]
+        },
+        {
+          "authority": "WP_ESA",
+          "allowed_topics": ["esa_violation", "unpaid_wages", "overtime", "termination_pay", "vacation_pay"],
+          "forbidden_topics": ["human_rights_claim", "criminal", "punitive_beyond_esa"],
+          "allowed_reliefs": ["wage_recovery", "reinstatement", "esa_compliance_order", "penalty_within_esa"],
+          "forbidden_reliefs": ["punitive_damages_beyond_esa", "criminal_sanction", "fine_beyond_esa"],
+          "forbidden_terms": ["criminal", "punitive beyond ESA", "court injunction", "fine the company"]
+        },
+        {
+          "authority": "WP_WSIB",
+          "allowed_topics": ["wsib_claim", "workplace_injury", "benefits_entitlement", "return_to_work"],
+          "forbidden_topics": ["criminal", "punitive_award", "court_tort_claim"],
+          "allowed_reliefs": ["wsib_benefits", "loss_of_earnings", "health_care_benefits", "workers_comp"],
+          "forbidden_reliefs": ["punitive_damages", "criminal_sanction", "court_damages"],
+          "forbidden_terms": ["criminal", "punitive", "court damages", "fine the employer"]
+        },
+        {
+          "authority": "WP_HRTO",
+          "allowed_topics": ["workplace_discrimination", "harassment_hrto", "protected_ground", "accommodation"],
+          "forbidden_topics": ["esa_exclusive", "criminal", "punitive_beyond_hrto"],
+          "allowed_reliefs": ["monetary_remedy_hrto", "systemic_remedy", "accommodation_order", "reinstatement"],
+          "forbidden_reliefs": ["punitive_beyond_hrto", "criminal_sanction", "fine"],
+          "forbidden_terms": ["criminal", "fine the employer", "punitive beyond HRTO", "court injunction"]
+        },
+        {
+          "authority": "WP_LABOUR",
+          "allowed_topics": ["collective_bargaining", "unfair_labour_practice", "union_certification"],
+          "forbidden_topics": ["non_union_individual", "criminal", "court_exclusive"],
+          "allowed_reliefs": ["certification_order", "remedial_order", "bargaining_order"],
+          "forbidden_reliefs": ["criminal_sanction", "punitive_damages", "fine"],
+          "forbidden_terms": ["criminal", "punitive", "fine the union", "court order"]
+        },
+        {
+          "authority": "WP_COURT",
+          "allowed_topics": ["wrongful_dismissal", "breach_of_employment_contract", "damages_claim"],
+          "forbidden_topics": ["wsib_bar_exclusion", "administrative_language", "esa_exclusive"],
+          "allowed_reliefs": ["damages", "notice_pay", "severance", "legal_costs"],
+          "forbidden_reliefs": ["administrative_exclusive_order", "wsib_exclusive_benefit"],
+          "forbidden_terms": ["administrative order", "wsib claim within court", "regulatory directive"]
+        }
+      ]
+    }
+  ]
+}
