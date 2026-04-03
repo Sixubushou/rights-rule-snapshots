@@ -1,0 +1,177 @@
+{
+  "snapshot_name": "UNLOCK_POLICY_SNAPSHOT",
+  "generated_at": "2026-04-03T08:07:07.118Z",
+  "source_commit": "2e26919",
+  "stage_order": {
+    "CONDO_RECORD_CHAIN": [
+      "record_request",
+      "cat_stage1",
+      "cat_stage2",
+      "court_small_claim"
+    ],
+    "CONDO_MIXED_CHAIN": [
+      "record",
+      "complaint",
+      "regulator",
+      "court"
+    ],
+    "CONDO_COURT_CHAIN": [
+      "claim",
+      "hearing",
+      "judgment"
+    ],
+    "CRA_INTERNAL_COMPLAINT_CHAIN": [
+      "frontline",
+      "supervisor",
+      "complaint"
+    ],
+    "CRA_REVIEW_APPEAL_CHAIN": [
+      "objection",
+      "appeal",
+      "court"
+    ],
+    "TL_REGULATOR_CHAIN": [
+      "report",
+      "investigation",
+      "enforcement"
+    ],
+    "TL_DEMAND_CHAIN": [
+      "demand",
+      "escalation",
+      "court"
+    ],
+    "INSURANCE_INTERNAL_COMPLAINT_CHAIN": [
+      "frontline",
+      "supervisor",
+      "complaint"
+    ],
+    "CONSUMER_REGULATOR_CHAIN": [
+      "report",
+      "investigation",
+      "enforcement"
+    ],
+    "WORKPLACE_INTERNAL_COMPLAINT_CHAIN": [
+      "frontline",
+      "supervisor",
+      "complaint"
+    ]
+  },
+  "policy": {
+    "CONDO_RECORD_CHAIN": {
+      "record_request": {
+        "CONDO_CORP": true
+      },
+      "cat_stage1": {
+        "CAT": true
+      },
+      "cat_stage2": {
+        "CAT": true
+      },
+      "court_small_claim": {
+        "SMALL_CLAIMS": true
+      }
+    },
+    "CONDO_MIXED_CHAIN": {
+      "record": {
+        "CONDO_BOARD_DEMAND": true
+      },
+      "complaint": {
+        "CONDO_CAT_ORDINARY": true
+      },
+      "regulator": {
+        "CONDO_MUNICIPAL": true
+      },
+      "court": {
+        "CONDO_COURT_SC": true
+      }
+    },
+    "CONDO_COURT_CHAIN": {
+      "claim": {
+        "CONDO_COURT_SC": true
+      },
+      "hearing": {
+        "CONDO_COURT_SC": true
+      },
+      "judgment": {
+        "CONDO_COURT_SUP": true
+      }
+    },
+    "CRA_INTERNAL_COMPLAINT_CHAIN": {
+      "frontline": {
+        "CRA_COMPLAINT": true
+      },
+      "supervisor": {
+        "CRA_INTERNAL_REVIEW": true
+      },
+      "complaint": {
+        "CRA_TAX_COURT": true
+      }
+    },
+    "CRA_REVIEW_APPEAL_CHAIN": {
+      "objection": {
+        "CRA_OBJECTION": true
+      },
+      "appeal": {
+        "CRA_INTERNAL_REVIEW": true
+      },
+      "court": {
+        "CRA_TAX_COURT": true
+      }
+    },
+    "TL_REGULATOR_CHAIN": {
+      "report": {
+        "TL_TENANT_DEMAND": true
+      },
+      "investigation": {
+        "TL_LTB_TENANT": true
+      },
+      "enforcement": {
+        "TL_LTB_TENANT": true
+      }
+    },
+    "TL_DEMAND_CHAIN": {
+      "demand": {
+        "TL_LANDLORD_DEMAND": true
+      },
+      "escalation": {
+        "TL_LTB_LANDLORD": true
+      },
+      "court": {
+        "TL_COURT": true
+      }
+    },
+    "INSURANCE_INTERNAL_COMPLAINT_CHAIN": {
+      "frontline": {
+        "INS_INTERNAL": true
+      },
+      "supervisor": {
+        "INS_OMBUDS": true
+      },
+      "complaint": {
+        "INS_REGULATOR": true
+      }
+    },
+    "CONSUMER_REGULATOR_CHAIN": {
+      "report": {
+        "CON_MERCHANT": true
+      },
+      "investigation": {
+        "CON_REGULATOR": true
+      },
+      "enforcement": {
+        "CON_REGULATOR": true
+      }
+    },
+    "WORKPLACE_INTERNAL_COMPLAINT_CHAIN": {
+      "frontline": {
+        "WP_INTERNAL": true
+      },
+      "supervisor": {
+        "WP_ESA": true
+      },
+      "complaint": {
+        "WP_WSIB": true
+      }
+    }
+  }
+}
