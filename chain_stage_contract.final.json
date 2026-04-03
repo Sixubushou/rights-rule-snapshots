@@ -1,0 +1,904 @@
+{
+  "version": "final.v1",
+  "modules": {
+    "CONDO": {
+      "RECORD_CHAIN": [
+        {
+          "stageIndex": 0,
+          "stageName": "record_request",
+          "authorityKey": "CONDO_CORP",
+          "allowedDepts": [
+            "Demand"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CONDO_CORP_RECORD_REQUEST_DEMAND"
+            ]
+          },
+          "forbidden_reliefs": [
+            "fine",
+            "punitive_damages",
+            "injunction",
+            "court_order"
+          ],
+          "next_allowed_stages": [
+            "cat_stage1"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "management_correspondence",
+            "declaration_sections"
+          ],
+          "allowCompensation": false,
+          "allowPenalty": false
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "cat_stage1",
+          "authorityKey": "CAT",
+          "allowedDepts": [
+            "CAT"
+          ],
+          "deptTemplateMap": {
+            "CAT": [
+              "TEMPLATE_CAT_CAT_STAGE1_CAT"
+            ]
+          },
+          "forbidden_reliefs": [
+            "fine",
+            "punitive_damages",
+            "injunction",
+            "comprehensive_management_reform",
+            "general_misconduct_compensation"
+          ],
+          "next_allowed_stages": [
+            "cat_stage2"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "original_record_request",
+            "response_letters",
+            "timeline_evidence"
+          ],
+          "allowCompensation": false,
+          "allowPenalty": false
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "cat_stage2",
+          "authorityKey": "CAT",
+          "allowedDepts": [
+            "CAT"
+          ],
+          "deptTemplateMap": {
+            "CAT": [
+              "TEMPLATE_CAT_CAT_STAGE2_CAT"
+            ]
+          },
+          "forbidden_reliefs": [
+            "fine",
+            "punitive_damages",
+            "injunction",
+            "general_damages_beyond_cat"
+          ],
+          "next_allowed_stages": [
+            "court_small_claim"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "cat_application_materials",
+            "hearing_preparation",
+            "evidence_package"
+          ],
+          "allowCompensation": false,
+          "allowPenalty": false
+        },
+        {
+          "stageIndex": 3,
+          "stageName": "court_small_claim",
+          "authorityKey": "SMALL_CLAIMS",
+          "allowedDepts": [
+            "Demand"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_SMALL_CLAIMS_COURT_SMALL_CLAIM_DEMAND"
+            ]
+          },
+          "forbidden_reliefs": [
+            "administrative_exclusive_order",
+            "tribunal_procedure"
+          ],
+          "next_allowed_stages": [],
+          "terminal": true,
+          "required_evidence_focus": [
+            "full_case_record",
+            "financial_loss_evidence"
+          ],
+          "allowCompensation": true,
+          "allowPenalty": false
+        }
+      ],
+      "COURT_CHAIN": [
+        {
+          "stageIndex": 0,
+          "stageName": "claim",
+          "authorityKey": "CONDO_COURT_SC",
+          "allowedDepts": [
+            "Demand"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CONDO_COURT_SC_CLAIM_DEMAND"
+            ]
+          },
+          "forbidden_reliefs": [
+            "administrative_exclusive_order",
+            "tribunal_procedure"
+          ],
+          "next_allowed_stages": [
+            "hearing"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "claim_evidence",
+            "financial_records"
+          ]
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "hearing",
+          "authorityKey": "CONDO_COURT_SC",
+          "allowedDepts": [
+            "Demand"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CONDO_COURT_SC_HEARING_DEMAND"
+            ]
+          },
+          "forbidden_reliefs": [
+            "administrative_order"
+          ],
+          "next_allowed_stages": [
+            "judgment"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "hearing_materials",
+            "supporting_evidence"
+          ]
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "judgment",
+          "authorityKey": "CONDO_COURT_SUP",
+          "allowedDepts": [
+            "CAT"
+          ],
+          "deptTemplateMap": {
+            "CAT": [
+              "TEMPLATE_CONDO_COURT_SUP_JUDGMENT_CAT"
+            ]
+          },
+          "forbidden_reliefs": [
+            "administrative_order"
+          ],
+          "next_allowed_stages": [],
+          "terminal": true,
+          "required_evidence_focus": [
+            "full_record",
+            "judgment_basis"
+          ]
+        }
+      ],
+      "MIXED_CHAIN": [
+        {
+          "stageIndex": 0,
+          "stageName": "record",
+          "authorityKey": "CONDO_BOARD_DEMAND",
+          "allowedDepts": [
+            "Demand"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CONDO_BOARD_DEMAND_RECORD_DEMAND"
+            ]
+          },
+          "forbidden_reliefs": [
+            "fine",
+            "punitive_damages",
+            "injunction"
+          ],
+          "next_allowed_stages": [
+            "complaint"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "correspondence",
+            "statutory_references"
+          ]
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "complaint",
+          "authorityKey": "CONDO_CAT_ORDINARY",
+          "allowedDepts": [
+            "Demand",
+            "CMRAO"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CONDO_CAT_ORDINARY_COMPLAINT_DEMAND"
+            ],
+            "CMRAO": [
+              "TEMPLATE_CONDO_CAT_ORDINARY_COMPLAINT_CMRAO"
+            ]
+          },
+          "forbidden_reliefs": [
+            "fine",
+            "punitive_damages",
+            "court_order"
+          ],
+          "next_allowed_stages": [
+            "regulator"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "prior_correspondence",
+            "violation_evidence"
+          ]
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "regulator",
+          "authorityKey": "CONDO_MUNICIPAL",
+          "allowedDepts": [
+            "Demand"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CONDO_MUNICIPAL_REGULATOR_DEMAND"
+            ]
+          },
+          "forbidden_reliefs": [
+            "private_damages",
+            "court_order"
+          ],
+          "next_allowed_stages": [
+            "court"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "municipal_bylaw",
+            "inspection_reports"
+          ]
+        },
+        {
+          "stageIndex": 3,
+          "stageName": "court",
+          "authorityKey": "CONDO_COURT_SC",
+          "allowedDepts": [
+            "CAT"
+          ],
+          "deptTemplateMap": {
+            "CAT": [
+              "TEMPLATE_CONDO_COURT_SC_COURT_CAT"
+            ]
+          },
+          "forbidden_reliefs": [
+            "administrative_exclusive_order"
+          ],
+          "next_allowed_stages": [],
+          "terminal": true,
+          "required_evidence_focus": [
+            "full_case_record",
+            "financial_loss_evidence"
+          ]
+        }
+      ]
+    },
+    "CRA": {
+      "INTERNAL_COMPLAINT_CHAIN": [
+        {
+          "stageIndex": 0,
+          "stageName": "frontline",
+          "authorityKey": "CRA_COMPLAINT",
+          "allowedDepts": [
+            "Demand"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CRA_COMPLAINT_FRONTLINE_DEMAND"
+            ]
+          },
+          "forbidden_reliefs": [
+            "fine",
+            "punitive_damages",
+            "court_order",
+            "criminal_sanction"
+          ],
+          "next_allowed_stages": [
+            "supervisor"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "cra_correspondence",
+            "notice_of_assessment"
+          ]
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "supervisor",
+          "authorityKey": "CRA_INTERNAL_REVIEW",
+          "allowedDepts": [
+            "Demand"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CRA_INTERNAL_REVIEW_SUPERVISOR_DEMAND"
+            ]
+          },
+          "forbidden_reliefs": [
+            "fine",
+            "punitive_damages",
+            "court_judgment",
+            "criminal_sanction"
+          ],
+          "next_allowed_stages": [
+            "complaint"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "prior_objection",
+            "cra_notices",
+            "financial_records"
+          ]
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "complaint",
+          "authorityKey": "CRA_TAX_COURT",
+          "allowedDepts": [
+            "Demand"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CRA_TAX_COURT_COMPLAINT_DEMAND"
+            ]
+          },
+          "forbidden_reliefs": [
+            "administrative_fine",
+            "punitive_damages",
+            "criminal_sanction"
+          ],
+          "next_allowed_stages": [
+            "tax_court"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "tax_returns",
+            "notices_of_assessment",
+            "objection_correspondence"
+          ]
+        }
+      ],
+      "REVIEW_APPEAL_CHAIN": [
+        {
+          "stageIndex": 0,
+          "stageName": "objection",
+          "authorityKey": "CRA_OBJECTION",
+          "allowedDepts": [
+            "Demand"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CRA_OBJECTION_OBJECTION_DEMAND"
+            ]
+          },
+          "forbidden_reliefs": [
+            "fine",
+            "criminal_penalty",
+            "court_injunction"
+          ],
+          "next_allowed_stages": [
+            "appeal"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "notice_of_assessment",
+            "t1_slips",
+            "receipts"
+          ]
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "appeal",
+          "authorityKey": "CRA_INTERNAL_REVIEW",
+          "allowedDepts": [
+            "Demand"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CRA_INTERNAL_REVIEW_APPEAL_DEMAND"
+            ]
+          },
+          "forbidden_reliefs": [
+            "punitive_damages",
+            "court_judgment",
+            "criminal_sanction"
+          ],
+          "next_allowed_stages": [
+            "court"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "objection_letter",
+            "cra_response",
+            "financial_records"
+          ]
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "court",
+          "authorityKey": "CRA_TAX_COURT",
+          "allowedDepts": [
+            "Demand"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CRA_TAX_COURT_COURT_DEMAND"
+            ]
+          },
+          "forbidden_reliefs": [
+            "administrative_fine",
+            "punitive_damages_beyond_tax",
+            "criminal_sanction"
+          ],
+          "next_allowed_stages": [],
+          "terminal": true,
+          "required_evidence_focus": [
+            "tax_returns",
+            "assessment_notices",
+            "objection_records"
+          ]
+        }
+      ]
+    },
+    "TL": {
+      "REGULATOR_CHAIN": [
+        {
+          "stageIndex": 0,
+          "stageName": "report",
+          "authorityKey": "TL_TENANT_DEMAND",
+          "allowedDepts": [
+            "Demand"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_TL_TENANT_DEMAND_REPORT_DEMAND"
+            ]
+          },
+          "forbidden_reliefs": [
+            "fine",
+            "punitive_damages",
+            "criminal_sanction"
+          ],
+          "next_allowed_stages": [
+            "investigation"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "inspection_reports",
+            "photographs",
+            "repair_requests"
+          ]
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "investigation",
+          "authorityKey": "TL_LTB_TENANT",
+          "allowedDepts": [
+            "Demand",
+            "CAT"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_TL_LTB_TENANT_INVESTIGATION_DEMAND"
+            ],
+            "CAT": [
+              "TEMPLATE_TL_LTB_TENANT_INVESTIGATION_CAT"
+            ]
+          },
+          "forbidden_reliefs": [
+            "punitive_damages_beyond_rta",
+            "criminal_sanction",
+            "court_injunction"
+          ],
+          "next_allowed_stages": [
+            "enforcement"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "ltb_form_series",
+            "repair_evidence",
+            "correspondence_logs"
+          ]
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "enforcement",
+          "authorityKey": "TL_LTB_TENANT",
+          "allowedDepts": [
+            "Demand",
+            "CAT"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_TL_LTB_TENANT_ENFORCEMENT_DEMAND"
+            ],
+            "CAT": [
+              "TEMPLATE_TL_LTB_TENANT_ENFORCEMENT_CAT"
+            ]
+          },
+          "forbidden_reliefs": [
+            "punitive_damages_beyond_rta",
+            "criminal_sanction",
+            "court_injunction"
+          ],
+          "next_allowed_stages": [
+            "court"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "ltb_order",
+            "enforcement_evidence"
+          ]
+        }
+      ],
+      "DEMAND_CHAIN": [
+        {
+          "stageIndex": 0,
+          "stageName": "demand",
+          "authorityKey": "TL_LANDLORD_DEMAND",
+          "allowedDepts": [
+            "Demand"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_TL_LANDLORD_DEMAND_DEMAND_DEMAND"
+            ]
+          },
+          "forbidden_reliefs": [
+            "fine",
+            "punitive_damages",
+            "illegal_lockout"
+          ],
+          "next_allowed_stages": [
+            "escalation"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "lease_agreement",
+            "payment_history",
+            "written_notices"
+          ]
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "escalation",
+          "authorityKey": "TL_LTB_LANDLORD",
+          "allowedDepts": [
+            "Demand",
+            "CAT"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_TL_LTB_LANDLORD_ESCALATION_DEMAND"
+            ],
+            "CAT": [
+              "TEMPLATE_TL_LTB_LANDLORD_ESCALATION_CAT"
+            ]
+          },
+          "forbidden_reliefs": [
+            "punitive_damages",
+            "criminal_sanction",
+            "fine"
+          ],
+          "next_allowed_stages": [
+            "court"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "ltb_l_form_series",
+            "payment_ledger"
+          ]
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "court",
+          "authorityKey": "TL_COURT",
+          "allowedDepts": [
+            "Demand",
+            "CAT"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_TL_COURT_COURT_DEMAND"
+            ],
+            "CAT": [
+              "TEMPLATE_TL_COURT_COURT_CAT"
+            ]
+          },
+          "forbidden_reliefs": [
+            "administrative_exclusive_order",
+            "tribunal_procedure"
+          ],
+          "next_allowed_stages": [],
+          "terminal": true,
+          "required_evidence_focus": [
+            "financial_records",
+            "lease_agreement",
+            "ltb_order"
+          ]
+        }
+      ]
+    },
+    "INSURANCE": {
+      "INTERNAL_COMPLAINT_CHAIN": [
+        {
+          "stageIndex": 0,
+          "stageName": "frontline",
+          "authorityKey": "INS_INTERNAL",
+          "allowedDepts": [
+            "Demand"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_INS_INTERNAL_FRONTLINE_DEMAND"
+            ]
+          },
+          "forbidden_reliefs": [
+            "fine",
+            "punitive_damages",
+            "court_order"
+          ],
+          "next_allowed_stages": [
+            "supervisor"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "policy_documents",
+            "denial_letter",
+            "claim_history"
+          ]
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "supervisor",
+          "authorityKey": "INS_OMBUDS",
+          "allowedDepts": [
+            "Demand"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_INS_OMBUDS_SUPERVISOR_DEMAND"
+            ]
+          },
+          "forbidden_reliefs": [
+            "fine",
+            "punitive_damages",
+            "court_judgment"
+          ],
+          "next_allowed_stages": [
+            "complaint"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "internal_complaint_history",
+            "policy_documents"
+          ]
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "complaint",
+          "authorityKey": "INS_REGULATOR",
+          "allowedDepts": [
+            "Demand"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_INS_REGULATOR_COMPLAINT_DEMAND"
+            ]
+          },
+          "forbidden_reliefs": [
+            "private_damages",
+            "punitive_damages",
+            "fine_from_regulator_to_claimant"
+          ],
+          "next_allowed_stages": [
+            "tribunal",
+            "court"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "regulatory_correspondence",
+            "policy_documents",
+            "denial_letters"
+          ]
+        }
+      ]
+    },
+    "CONSUMER": {
+      "REGULATOR_CHAIN": [
+        {
+          "stageIndex": 0,
+          "stageName": "report",
+          "authorityKey": "CON_MERCHANT",
+          "allowedDepts": [
+            "Demand"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CON_MERCHANT_REPORT_DEMAND"
+            ]
+          },
+          "forbidden_reliefs": [
+            "fine",
+            "punitive_damages",
+            "injunction"
+          ],
+          "next_allowed_stages": [
+            "investigation"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "purchase_receipt",
+            "warranty_documents",
+            "correspondence"
+          ]
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "investigation",
+          "authorityKey": "CON_REGULATOR",
+          "allowedDepts": [
+            "Demand"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CON_REGULATOR_INVESTIGATION_DEMAND"
+            ]
+          },
+          "forbidden_reliefs": [
+            "private_damages",
+            "punitive_damages",
+            "fine_to_consumer"
+          ],
+          "next_allowed_stages": [
+            "enforcement"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "purchase_records",
+            "cpa_sections",
+            "merchant_correspondence"
+          ]
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "enforcement",
+          "authorityKey": "CON_REGULATOR",
+          "allowedDepts": [
+            "Demand"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CON_REGULATOR_ENFORCEMENT_DEMAND"
+            ]
+          },
+          "forbidden_reliefs": [
+            "private_damages",
+            "punitive_damages"
+          ],
+          "next_allowed_stages": [
+            "court"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "regulatory_complaint_history",
+            "purchase_evidence"
+          ]
+        }
+      ]
+    },
+    "WORKPLACE": {
+      "INTERNAL_COMPLAINT_CHAIN": [
+        {
+          "stageIndex": 0,
+          "stageName": "frontline",
+          "authorityKey": "WP_INTERNAL",
+          "allowedDepts": [
+            "Demand"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_WP_INTERNAL_FRONTLINE_DEMAND"
+            ]
+          },
+          "forbidden_reliefs": [
+            "fine",
+            "punitive_damages",
+            "court_order",
+            "criminal_sanction"
+          ],
+          "next_allowed_stages": [
+            "supervisor"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "incident_reports",
+            "hr_correspondence",
+            "policy_documents"
+          ]
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "supervisor",
+          "authorityKey": "WP_ESA",
+          "allowedDepts": [
+            "Demand"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_WP_ESA_SUPERVISOR_DEMAND"
+            ]
+          },
+          "forbidden_reliefs": [
+            "punitive_damages_beyond_esa",
+            "criminal_sanction",
+            "fine"
+          ],
+          "next_allowed_stages": [
+            "complaint"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "pay_stubs",
+            "employment_contract",
+            "termination_letter"
+          ]
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "complaint",
+          "authorityKey": "WP_WSIB",
+          "allowedDepts": [
+            "Demand"
+          ],
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_WP_WSIB_COMPLAINT_DEMAND"
+            ]
+          },
+          "forbidden_reliefs": [
+            "punitive_damages",
+            "criminal_sanction",
+            "court_damages"
+          ],
+          "next_allowed_stages": [
+            "hrto",
+            "labour_board",
+            "court"
+          ],
+          "terminal": false,
+          "required_evidence_focus": [
+            "injury_reports",
+            "medical_records",
+            "wsib_form_numbers"
+          ]
+        }
+      ]
+    }
+  }
+}

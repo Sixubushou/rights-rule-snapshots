@@ -1,0 +1,518 @@
+{
+  "version": "final.v1",
+  "perChain": {
+    "CONDO_RECORD_CHAIN": {
+      "moduleId": "CONDO",
+      "genericChainId": "RECORD_CHAIN",
+      "routeFamilyStages": [
+        "record",
+        "ordinary",
+        "court"
+      ],
+      "contractStages": [
+        "record_request",
+        "cat_stage1",
+        "cat_stage2",
+        "court_small_claim"
+      ],
+      "unlockStages": [
+        "record_request",
+        "cat_stage1",
+        "cat_stage2",
+        "court_small_claim"
+      ],
+      "stages": [
+        {
+          "stageIndex": 0,
+          "stageName": "record_request",
+          "authorityKey": "CONDO_CORP",
+          "next_allowed_stages": [
+            "cat_stage1"
+          ],
+          "terminal": false
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "cat_stage1",
+          "authorityKey": "CAT",
+          "next_allowed_stages": [
+            "cat_stage2"
+          ],
+          "terminal": false
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "cat_stage2",
+          "authorityKey": "CAT",
+          "next_allowed_stages": [
+            "court_small_claim"
+          ],
+          "terminal": false
+        },
+        {
+          "stageIndex": 3,
+          "stageName": "court_small_claim",
+          "authorityKey": "SMALL_CLAIMS",
+          "next_allowed_stages": [],
+          "terminal": true
+        }
+      ]
+    },
+    "CONDO_MIXED_CHAIN": {
+      "moduleId": "CONDO",
+      "genericChainId": "MIXED_CHAIN",
+      "routeFamilyStages": [
+        "record",
+        "complaint",
+        "regulator",
+        "court"
+      ],
+      "contractStages": [
+        "record",
+        "complaint",
+        "regulator",
+        "court"
+      ],
+      "unlockStages": [
+        "record",
+        "complaint",
+        "regulator",
+        "court"
+      ],
+      "stages": [
+        {
+          "stageIndex": 0,
+          "stageName": "record",
+          "authorityKey": "CONDO_BOARD_DEMAND",
+          "next_allowed_stages": [
+            "complaint"
+          ],
+          "terminal": false
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "complaint",
+          "authorityKey": "CONDO_CAT_ORDINARY",
+          "next_allowed_stages": [
+            "regulator"
+          ],
+          "terminal": false
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "regulator",
+          "authorityKey": "CONDO_MUNICIPAL",
+          "next_allowed_stages": [
+            "court"
+          ],
+          "terminal": false
+        },
+        {
+          "stageIndex": 3,
+          "stageName": "court",
+          "authorityKey": "CONDO_COURT_SC",
+          "next_allowed_stages": [],
+          "terminal": true
+        }
+      ]
+    },
+    "CONDO_COURT_CHAIN": {
+      "moduleId": "CONDO",
+      "genericChainId": "COURT_CHAIN",
+      "routeFamilyStages": [
+        "claim",
+        "hearing",
+        "judgment"
+      ],
+      "contractStages": [
+        "claim",
+        "hearing",
+        "judgment"
+      ],
+      "unlockStages": [
+        "claim",
+        "hearing",
+        "judgment"
+      ],
+      "stages": [
+        {
+          "stageIndex": 0,
+          "stageName": "claim",
+          "authorityKey": "CONDO_COURT_SC",
+          "next_allowed_stages": [
+            "hearing"
+          ],
+          "terminal": false
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "hearing",
+          "authorityKey": "CONDO_COURT_SC",
+          "next_allowed_stages": [
+            "judgment"
+          ],
+          "terminal": false
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "judgment",
+          "authorityKey": "CONDO_COURT_SUP",
+          "next_allowed_stages": [],
+          "terminal": true
+        }
+      ]
+    },
+    "CRA_INTERNAL_COMPLAINT_CHAIN": {
+      "moduleId": "CRA",
+      "genericChainId": "INTERNAL_COMPLAINT_CHAIN",
+      "routeFamilyStages": [
+        "frontline",
+        "supervisor",
+        "complaint"
+      ],
+      "contractStages": [
+        "frontline",
+        "supervisor",
+        "complaint"
+      ],
+      "unlockStages": [
+        "frontline",
+        "supervisor",
+        "complaint"
+      ],
+      "stages": [
+        {
+          "stageIndex": 0,
+          "stageName": "frontline",
+          "authorityKey": "CRA_COMPLAINT",
+          "next_allowed_stages": [
+            "supervisor"
+          ],
+          "terminal": false
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "supervisor",
+          "authorityKey": "CRA_INTERNAL_REVIEW",
+          "next_allowed_stages": [
+            "complaint"
+          ],
+          "terminal": false
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "complaint",
+          "authorityKey": "CRA_TAX_COURT",
+          "next_allowed_stages": [
+            "tax_court"
+          ],
+          "terminal": false
+        }
+      ]
+    },
+    "CRA_REVIEW_APPEAL_CHAIN": {
+      "moduleId": "CRA",
+      "genericChainId": "REVIEW_APPEAL_CHAIN",
+      "routeFamilyStages": [
+        "objection",
+        "appeal",
+        "court"
+      ],
+      "contractStages": [
+        "objection",
+        "appeal",
+        "court"
+      ],
+      "unlockStages": [
+        "objection",
+        "appeal",
+        "court"
+      ],
+      "stages": [
+        {
+          "stageIndex": 0,
+          "stageName": "objection",
+          "authorityKey": "CRA_OBJECTION",
+          "next_allowed_stages": [
+            "appeal"
+          ],
+          "terminal": false
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "appeal",
+          "authorityKey": "CRA_INTERNAL_REVIEW",
+          "next_allowed_stages": [
+            "court"
+          ],
+          "terminal": false
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "court",
+          "authorityKey": "CRA_TAX_COURT",
+          "next_allowed_stages": [],
+          "terminal": true
+        }
+      ]
+    },
+    "TL_REGULATOR_CHAIN": {
+      "moduleId": "TL",
+      "genericChainId": "REGULATOR_CHAIN",
+      "routeFamilyStages": [
+        "report",
+        "investigation",
+        "enforcement"
+      ],
+      "contractStages": [
+        "report",
+        "investigation",
+        "enforcement"
+      ],
+      "unlockStages": [
+        "report",
+        "investigation",
+        "enforcement"
+      ],
+      "stages": [
+        {
+          "stageIndex": 0,
+          "stageName": "report",
+          "authorityKey": "TL_TENANT_DEMAND",
+          "next_allowed_stages": [
+            "investigation"
+          ],
+          "terminal": false
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "investigation",
+          "authorityKey": "TL_LTB_TENANT",
+          "next_allowed_stages": [
+            "enforcement"
+          ],
+          "terminal": false
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "enforcement",
+          "authorityKey": "TL_LTB_TENANT",
+          "next_allowed_stages": [
+            "court"
+          ],
+          "terminal": false
+        }
+      ]
+    },
+    "TL_DEMAND_CHAIN": {
+      "moduleId": "TL",
+      "genericChainId": "DEMAND_CHAIN",
+      "routeFamilyStages": [
+        "demand",
+        "escalation",
+        "court"
+      ],
+      "contractStages": [
+        "demand",
+        "escalation",
+        "court"
+      ],
+      "unlockStages": [
+        "demand",
+        "escalation",
+        "court"
+      ],
+      "stages": [
+        {
+          "stageIndex": 0,
+          "stageName": "demand",
+          "authorityKey": "TL_LANDLORD_DEMAND",
+          "next_allowed_stages": [
+            "escalation"
+          ],
+          "terminal": false
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "escalation",
+          "authorityKey": "TL_LTB_LANDLORD",
+          "next_allowed_stages": [
+            "court"
+          ],
+          "terminal": false
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "court",
+          "authorityKey": "TL_COURT",
+          "next_allowed_stages": [],
+          "terminal": true
+        }
+      ]
+    },
+    "INSURANCE_INTERNAL_COMPLAINT_CHAIN": {
+      "moduleId": "INSURANCE",
+      "genericChainId": "INTERNAL_COMPLAINT_CHAIN",
+      "routeFamilyStages": [
+        "frontline",
+        "supervisor",
+        "complaint"
+      ],
+      "contractStages": [
+        "frontline",
+        "supervisor",
+        "complaint"
+      ],
+      "unlockStages": [
+        "frontline",
+        "supervisor",
+        "complaint"
+      ],
+      "stages": [
+        {
+          "stageIndex": 0,
+          "stageName": "frontline",
+          "authorityKey": "INS_INTERNAL",
+          "next_allowed_stages": [
+            "supervisor"
+          ],
+          "terminal": false
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "supervisor",
+          "authorityKey": "INS_OMBUDS",
+          "next_allowed_stages": [
+            "complaint"
+          ],
+          "terminal": false
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "complaint",
+          "authorityKey": "INS_REGULATOR",
+          "next_allowed_stages": [
+            "tribunal",
+            "court"
+          ],
+          "terminal": false
+        }
+      ]
+    },
+    "CONSUMER_REGULATOR_CHAIN": {
+      "moduleId": "CONSUMER",
+      "genericChainId": "REGULATOR_CHAIN",
+      "routeFamilyStages": [
+        "report",
+        "investigation",
+        "enforcement"
+      ],
+      "contractStages": [
+        "report",
+        "investigation",
+        "enforcement"
+      ],
+      "unlockStages": [
+        "report",
+        "investigation",
+        "enforcement"
+      ],
+      "stages": [
+        {
+          "stageIndex": 0,
+          "stageName": "report",
+          "authorityKey": "CON_MERCHANT",
+          "next_allowed_stages": [
+            "investigation"
+          ],
+          "terminal": false
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "investigation",
+          "authorityKey": "CON_REGULATOR",
+          "next_allowed_stages": [
+            "enforcement"
+          ],
+          "terminal": false
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "enforcement",
+          "authorityKey": "CON_REGULATOR",
+          "next_allowed_stages": [
+            "court"
+          ],
+          "terminal": false
+        }
+      ]
+    },
+    "WORKPLACE_INTERNAL_COMPLAINT_CHAIN": {
+      "moduleId": "WORKPLACE",
+      "genericChainId": "INTERNAL_COMPLAINT_CHAIN",
+      "routeFamilyStages": [
+        "frontline",
+        "supervisor",
+        "complaint"
+      ],
+      "contractStages": [
+        "frontline",
+        "supervisor",
+        "complaint"
+      ],
+      "unlockStages": [
+        "frontline",
+        "supervisor",
+        "complaint"
+      ],
+      "stages": [
+        {
+          "stageIndex": 0,
+          "stageName": "frontline",
+          "authorityKey": "WP_INTERNAL",
+          "next_allowed_stages": [
+            "supervisor"
+          ],
+          "terminal": false
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "supervisor",
+          "authorityKey": "WP_ESA",
+          "next_allowed_stages": [
+            "complaint"
+          ],
+          "terminal": false
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "complaint",
+          "authorityKey": "WP_WSIB",
+          "next_allowed_stages": [
+            "hrto",
+            "labour_board",
+            "court"
+          ],
+          "terminal": false
+        }
+      ]
+    }
+  },
+  "routeStageDrift": [
+    {
+      "qualifiedChainKey": "CONDO_RECORD_CHAIN",
+      "genericChainId": "RECORD_CHAIN",
+      "routeFamilyStages": [
+        "record",
+        "ordinary",
+        "court"
+      ],
+      "contractStages": [
+        "record_request",
+        "cat_stage1",
+        "cat_stage2",
+        "court_small_claim"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "version": "final.v1",
+  "modules": {
+    "CONDO": {
+      "RECORD_CHAIN": [
+        {
+          "stageIndex": 0,
+          "stageName": "record_request",
+          "authorityKey": "CONDO_CORP",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CONDO_CORP_RECORD_REQUEST_DEMAND"
+            ]
+          }
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "cat_stage1",
+          "authorityKey": "CAT",
+          "deptTemplateMap": {
+            "CAT": [
+              "TEMPLATE_CAT_CAT_STAGE1_CAT"
+            ]
+          }
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "cat_stage2",
+          "authorityKey": "CAT",
+          "deptTemplateMap": {
+            "CAT": [
+              "TEMPLATE_CAT_CAT_STAGE2_CAT"
+            ]
+          }
+        },
+        {
+          "stageIndex": 3,
+          "stageName": "court_small_claim",
+          "authorityKey": "SMALL_CLAIMS",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_SMALL_CLAIMS_COURT_SMALL_CLAIM_DEMAND"
+            ]
+          }
+        }
+      ],
+      "COURT_CHAIN": [
+        {
+          "stageIndex": 0,
+          "stageName": "claim",
+          "authorityKey": "CONDO_COURT_SC",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CONDO_COURT_SC_CLAIM_DEMAND"
+            ]
+          }
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "hearing",
+          "authorityKey": "CONDO_COURT_SC",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CONDO_COURT_SC_HEARING_DEMAND"
+            ]
+          }
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "judgment",
+          "authorityKey": "CONDO_COURT_SUP",
+          "deptTemplateMap": {
+            "CAT": [
+              "TEMPLATE_CONDO_COURT_SUP_JUDGMENT_CAT"
+            ]
+          }
+        }
+      ],
+      "MIXED_CHAIN": [
+        {
+          "stageIndex": 0,
+          "stageName": "record",
+          "authorityKey": "CONDO_BOARD_DEMAND",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CONDO_BOARD_DEMAND_RECORD_DEMAND"
+            ]
+          }
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "complaint",
+          "authorityKey": "CONDO_CAT_ORDINARY",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CONDO_CAT_ORDINARY_COMPLAINT_DEMAND"
+            ],
+            "CMRAO": [
+              "TEMPLATE_CONDO_CAT_ORDINARY_COMPLAINT_CMRAO"
+            ]
+          }
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "regulator",
+          "authorityKey": "CONDO_MUNICIPAL",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CONDO_MUNICIPAL_REGULATOR_DEMAND"
+            ]
+          }
+        },
+        {
+          "stageIndex": 3,
+          "stageName": "court",
+          "authorityKey": "CONDO_COURT_SC",
+          "deptTemplateMap": {
+            "CAT": [
+              "TEMPLATE_CONDO_COURT_SC_COURT_CAT"
+            ]
+          }
+        }
+      ]
+    },
+    "CRA": {
+      "INTERNAL_COMPLAINT_CHAIN": [
+        {
+          "stageIndex": 0,
+          "stageName": "frontline",
+          "authorityKey": "CRA_COMPLAINT",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CRA_COMPLAINT_FRONTLINE_DEMAND"
+            ]
+          }
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "supervisor",
+          "authorityKey": "CRA_INTERNAL_REVIEW",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CRA_INTERNAL_REVIEW_SUPERVISOR_DEMAND"
+            ]
+          }
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "complaint",
+          "authorityKey": "CRA_TAX_COURT",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CRA_TAX_COURT_COMPLAINT_DEMAND"
+            ]
+          }
+        }
+      ],
+      "REVIEW_APPEAL_CHAIN": [
+        {
+          "stageIndex": 0,
+          "stageName": "objection",
+          "authorityKey": "CRA_OBJECTION",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CRA_OBJECTION_OBJECTION_DEMAND"
+            ]
+          }
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "appeal",
+          "authorityKey": "CRA_INTERNAL_REVIEW",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CRA_INTERNAL_REVIEW_APPEAL_DEMAND"
+            ]
+          }
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "court",
+          "authorityKey": "CRA_TAX_COURT",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CRA_TAX_COURT_COURT_DEMAND"
+            ]
+          }
+        }
+      ]
+    },
+    "TL": {
+      "REGULATOR_CHAIN": [
+        {
+          "stageIndex": 0,
+          "stageName": "report",
+          "authorityKey": "TL_TENANT_DEMAND",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_TL_TENANT_DEMAND_REPORT_DEMAND"
+            ]
+          }
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "investigation",
+          "authorityKey": "TL_LTB_TENANT",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_TL_LTB_TENANT_INVESTIGATION_DEMAND"
+            ],
+            "CAT": [
+              "TEMPLATE_TL_LTB_TENANT_INVESTIGATION_CAT"
+            ]
+          }
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "enforcement",
+          "authorityKey": "TL_LTB_TENANT",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_TL_LTB_TENANT_ENFORCEMENT_DEMAND"
+            ],
+            "CAT": [
+              "TEMPLATE_TL_LTB_TENANT_ENFORCEMENT_CAT"
+            ]
+          }
+        }
+      ],
+      "DEMAND_CHAIN": [
+        {
+          "stageIndex": 0,
+          "stageName": "demand",
+          "authorityKey": "TL_LANDLORD_DEMAND",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_TL_LANDLORD_DEMAND_DEMAND_DEMAND"
+            ]
+          }
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "escalation",
+          "authorityKey": "TL_LTB_LANDLORD",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_TL_LTB_LANDLORD_ESCALATION_DEMAND"
+            ],
+            "CAT": [
+              "TEMPLATE_TL_LTB_LANDLORD_ESCALATION_CAT"
+            ]
+          }
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "court",
+          "authorityKey": "TL_COURT",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_TL_COURT_COURT_DEMAND"
+            ],
+            "CAT": [
+              "TEMPLATE_TL_COURT_COURT_CAT"
+            ]
+          }
+        }
+      ]
+    },
+    "INSURANCE": {
+      "INTERNAL_COMPLAINT_CHAIN": [
+        {
+          "stageIndex": 0,
+          "stageName": "frontline",
+          "authorityKey": "INS_INTERNAL",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_INS_INTERNAL_FRONTLINE_DEMAND"
+            ]
+          }
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "supervisor",
+          "authorityKey": "INS_OMBUDS",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_INS_OMBUDS_SUPERVISOR_DEMAND"
+            ]
+          }
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "complaint",
+          "authorityKey": "INS_REGULATOR",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_INS_REGULATOR_COMPLAINT_DEMAND"
+            ]
+          }
+        }
+      ]
+    },
+    "CONSUMER": {
+      "REGULATOR_CHAIN": [
+        {
+          "stageIndex": 0,
+          "stageName": "report",
+          "authorityKey": "CON_MERCHANT",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CON_MERCHANT_REPORT_DEMAND"
+            ]
+          }
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "investigation",
+          "authorityKey": "CON_REGULATOR",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CON_REGULATOR_INVESTIGATION_DEMAND"
+            ]
+          }
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "enforcement",
+          "authorityKey": "CON_REGULATOR",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_CON_REGULATOR_ENFORCEMENT_DEMAND"
+            ]
+          }
+        }
+      ]
+    },
+    "WORKPLACE": {
+      "INTERNAL_COMPLAINT_CHAIN": [
+        {
+          "stageIndex": 0,
+          "stageName": "frontline",
+          "authorityKey": "WP_INTERNAL",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_WP_INTERNAL_FRONTLINE_DEMAND"
+            ]
+          }
+        },
+        {
+          "stageIndex": 1,
+          "stageName": "supervisor",
+          "authorityKey": "WP_ESA",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_WP_ESA_SUPERVISOR_DEMAND"
+            ]
+          }
+        },
+        {
+          "stageIndex": 2,
+          "stageName": "complaint",
+          "authorityKey": "WP_WSIB",
+          "deptTemplateMap": {
+            "Demand": [
+              "TEMPLATE_WP_WSIB_COMPLAINT_DEMAND"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
