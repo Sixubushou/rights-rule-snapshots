@@ -1,0 +1,2732 @@
+{
+  "snapshot": "template_contract",
+  "source": "current validated content data",
+  "totalScenarios": 153,
+  "items": [
+    {
+      "scenarioId": "ON-CONDO-001",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "templatesRef": [
+        "record_request",
+        "cat_complaint"
+      ],
+      "templates": {
+        "record_request": {
+          "titleKey": "on-condo-001.tpl.record_request.title",
+          "bodyKey": "on-condo-001.tpl.record_request.body"
+        },
+        "cat_complaint": {
+          "titleKey": "on-condo-001.tpl.cat_complaint.title",
+          "bodyKey": "on-condo-001.tpl.cat_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CONDO-002",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "templatesRef": [
+        "repair_request",
+        "demand_letter"
+      ],
+      "templates": {
+        "repair_request": {
+          "titleKey": "on-condo-002.tpl.repair_request.title",
+          "bodyKey": "on-condo-002.tpl.repair_request.body"
+        },
+        "demand_letter": {
+          "titleKey": "on-condo-002.tpl.demand_letter.title",
+          "bodyKey": "on-condo-002.tpl.demand_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CONDO-003",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "templatesRef": [
+        "charge_dispute"
+      ],
+      "templates": {
+        "charge_dispute": {
+          "titleKey": "on-condo-003.tpl.charge_dispute.title",
+          "bodyKey": "on-condo-003.tpl.charge_dispute.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CONDO-004",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "templatesRef": [
+        "rule_challenge",
+        "owner_requisition"
+      ],
+      "templates": {
+        "rule_challenge": {
+          "titleKey": "on-condo-004.tpl.rule_challenge.title",
+          "bodyKey": "on-condo-004.tpl.rule_challenge.body"
+        },
+        "owner_requisition": {
+          "titleKey": "on-condo-004.tpl.owner_requisition.title",
+          "bodyKey": "on-condo-004.tpl.owner_requisition.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CONDO-005",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "templatesRef": [
+        "nuisance_complaint"
+      ],
+      "templates": {
+        "nuisance_complaint": {
+          "titleKey": "on-condo-005.tpl.nuisance_complaint.title",
+          "bodyKey": "on-condo-005.tpl.nuisance_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CONDO-006",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "templatesRef": [
+        "agm_request",
+        "owner_requisition"
+      ],
+      "templates": {
+        "agm_request": {
+          "titleKey": "on-condo-006.tpl.agm_request.title",
+          "bodyKey": "on-condo-006.tpl.agm_request.body"
+        },
+        "owner_requisition": {
+          "titleKey": "on-condo-006.tpl.owner_requisition.title",
+          "bodyKey": "on-condo-006.tpl.owner_requisition.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CONDO-007",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "templatesRef": [
+        "assessment_objection"
+      ],
+      "templates": {
+        "assessment_objection": {
+          "titleKey": "on-condo-007.tpl.assessment_objection.title",
+          "bodyKey": "on-condo-007.tpl.assessment_objection.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CONDO-008",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "templatesRef": [
+        "conflict_complaint"
+      ],
+      "templates": {
+        "conflict_complaint": {
+          "titleKey": "on-condo-008.tpl.conflict_complaint.title",
+          "bodyKey": "on-condo-008.tpl.conflict_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CONDO-009",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "templatesRef": [
+        "access_request"
+      ],
+      "templates": {
+        "access_request": {
+          "titleKey": "on-condo-009.tpl.access_request.title",
+          "bodyKey": "on-condo-009.tpl.access_request.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CONDO-010",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "templatesRef": [
+        "accommodation_request"
+      ],
+      "templates": {
+        "accommodation_request": {
+          "titleKey": "on-condo-010.tpl.accommodation_request.title",
+          "bodyKey": "on-condo-010.tpl.accommodation_request.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CONDO-011",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "templatesRef": [
+        "expense_dispute"
+      ],
+      "templates": {
+        "expense_dispute": {
+          "titleKey": "on-condo-011.tpl.expense_dispute.title",
+          "bodyKey": "on-condo-011.tpl.expense_dispute.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CONDO-012",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "templatesRef": [
+        "status_certificate_request",
+        "cat_complaint"
+      ],
+      "templates": {
+        "status_certificate_request": {
+          "titleKey": "on-condo-012.tpl.status_certificate_request.title",
+          "bodyKey": "on-condo-012.tpl.status_certificate_request.body"
+        },
+        "cat_complaint": {
+          "titleKey": "on-condo-012.tpl.cat_complaint.title",
+          "bodyKey": "on-condo-012.tpl.cat_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CONDO-013",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "templatesRef": [
+        "reserve_fund_demand",
+        "court_application"
+      ],
+      "templates": {
+        "reserve_fund_demand": {
+          "titleKey": "on-condo-013.tpl.reserve_fund_demand.title",
+          "bodyKey": "on-condo-013.tpl.reserve_fund_demand.body"
+        },
+        "court_application": {
+          "titleKey": "on-condo-013.tpl.court_application.title",
+          "bodyKey": "on-condo-013.tpl.court_application.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CONDO-014",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "templatesRef": [
+        "unauthorized_change_notice",
+        "court_application"
+      ],
+      "templates": {
+        "unauthorized_change_notice": {
+          "titleKey": "on-condo-014.tpl.unauthorized_change_notice.title",
+          "bodyKey": "on-condo-014.tpl.unauthorized_change_notice.body"
+        },
+        "court_application": {
+          "titleKey": "on-condo-014.tpl.court_application.title",
+          "bodyKey": "on-condo-014.tpl.court_application.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CONDO-015",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "templatesRef": [
+        "manager_complaint",
+        "cat_complaint"
+      ],
+      "templates": {
+        "manager_complaint": {
+          "titleKey": "on-condo-015.tpl.manager_complaint.title",
+          "bodyKey": "on-condo-015.tpl.manager_complaint.body"
+        },
+        "cat_complaint": {
+          "titleKey": "on-condo-015.tpl.cat_complaint.title",
+          "bodyKey": "on-condo-015.tpl.cat_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CONDO-016",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "templatesRef": [
+        "enforcement_demand",
+        "cat_complaint"
+      ],
+      "templates": {
+        "enforcement_demand": {
+          "titleKey": "on-condo-016.tpl.enforcement_demand.title",
+          "bodyKey": "on-condo-016.tpl.enforcement_demand.body"
+        },
+        "cat_complaint": {
+          "titleKey": "on-condo-016.tpl.cat_complaint.title",
+          "bodyKey": "on-condo-016.tpl.cat_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CONDO-017",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "templatesRef": [
+        "cmrao_complaint",
+        "board_notice"
+      ],
+      "templates": {
+        "cmrao_complaint": {
+          "titleKey": "on-condo-017.tpl.cmrao_complaint.title",
+          "bodyKey": "on-condo-017.tpl.cmrao_complaint.body"
+        },
+        "board_notice": {
+          "titleKey": "on-condo-017.tpl.board_notice.title",
+          "bodyKey": "on-condo-017.tpl.board_notice.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CONDO-018",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "templatesRef": [
+        "jurisdiction_guide"
+      ],
+      "templates": {
+        "jurisdiction_guide": {
+          "titleKey": "on-condo-018.tpl.jurisdiction_guide.title",
+          "bodyKey": "on-condo-018.tpl.jurisdiction_guide.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CONDO-019",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "templatesRef": [
+        "oppression_demand",
+        "court_application"
+      ],
+      "templates": {
+        "oppression_demand": {
+          "titleKey": "on-condo-019.tpl.oppression_demand.title",
+          "bodyKey": "on-condo-019.tpl.oppression_demand.body"
+        },
+        "court_application": {
+          "titleKey": "on-condo-019.tpl.court_application.title",
+          "bodyKey": "on-condo-019.tpl.court_application.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CONDO-020",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "templatesRef": [
+        "authority_selector"
+      ],
+      "templates": {
+        "authority_selector": {
+          "titleKey": "on-condo-020.tpl.authority_selector.title",
+          "bodyKey": "on-condo-020.tpl.authority_selector.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CONDO-021",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "templatesRef": [
+        "registration_demand"
+      ],
+      "templates": {
+        "registration_demand": {
+          "titleKey": "on-condo-021.tpl.registration_demand.title",
+          "bodyKey": "on-condo-021.tpl.registration_demand.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CONDO-022",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "templatesRef": [
+        "records_escalation_guide"
+      ],
+      "templates": {
+        "records_escalation_guide": {
+          "titleKey": "on-condo-022.tpl.records_escalation_guide.title",
+          "bodyKey": "on-condo-022.tpl.records_escalation_guide.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CONDO-023",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "templatesRef": [
+        "hrto_assessment"
+      ],
+      "templates": {
+        "hrto_assessment": {
+          "titleKey": "on-condo-023.tpl.hrto_assessment.title",
+          "bodyKey": "on-condo-023.tpl.hrto_assessment.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-001",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-001.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-001.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-002",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-002.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-002.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-003",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "notice_of_objection"
+      ],
+      "templates": {
+        "notice_of_objection": {
+          "titleKey": "on-cra-003.tpl.notice_of_objection.title",
+          "bodyKey": "on-cra-003.tpl.notice_of_objection.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-004",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "notice_of_objection"
+      ],
+      "templates": {
+        "notice_of_objection": {
+          "titleKey": "on-cra-004.tpl.notice_of_objection.title",
+          "bodyKey": "on-cra-004.tpl.notice_of_objection.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-005",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "ombudsperson_complaint"
+      ],
+      "templates": {
+        "ombudsperson_complaint": {
+          "titleKey": "on-cra-005.tpl.ombudsperson_complaint.title",
+          "bodyKey": "on-cra-005.tpl.ombudsperson_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-006",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-006.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-006.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-007",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-007.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-007.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-008",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "notice_of_objection"
+      ],
+      "templates": {
+        "notice_of_objection": {
+          "titleKey": "on-cra-008.tpl.notice_of_objection.title",
+          "bodyKey": "on-cra-008.tpl.notice_of_objection.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-009",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-009.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-009.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-010",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-010.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-010.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-011",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-011.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-011.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-012",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-012.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-012.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-013",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "ombudsperson_complaint"
+      ],
+      "templates": {
+        "ombudsperson_complaint": {
+          "titleKey": "on-cra-013.tpl.ombudsperson_complaint.title",
+          "bodyKey": "on-cra-013.tpl.ombudsperson_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-014",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "ombudsperson_complaint"
+      ],
+      "templates": {
+        "ombudsperson_complaint": {
+          "titleKey": "on-cra-014.tpl.ombudsperson_complaint.title",
+          "bodyKey": "on-cra-014.tpl.ombudsperson_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-015",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-015.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-015.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-016",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "notice_of_objection"
+      ],
+      "templates": {
+        "notice_of_objection": {
+          "titleKey": "on-cra-016.tpl.notice_of_objection.title",
+          "bodyKey": "on-cra-016.tpl.notice_of_objection.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-017",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-017.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-017.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-018",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-018.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-018.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-019",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "notice_of_objection"
+      ],
+      "templates": {
+        "notice_of_objection": {
+          "titleKey": "on-cra-019.tpl.notice_of_objection.title",
+          "bodyKey": "on-cra-019.tpl.notice_of_objection.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-020",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "ombudsperson_complaint"
+      ],
+      "templates": {
+        "ombudsperson_complaint": {
+          "titleKey": "on-cra-020.tpl.ombudsperson_complaint.title",
+          "bodyKey": "on-cra-020.tpl.ombudsperson_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-021",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "notice_of_objection"
+      ],
+      "templates": {
+        "notice_of_objection": {
+          "titleKey": "on-cra-021.tpl.notice_of_objection.title",
+          "bodyKey": "on-cra-021.tpl.notice_of_objection.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-022",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "notice_of_objection"
+      ],
+      "templates": {
+        "notice_of_objection": {
+          "titleKey": "on-cra-022.tpl.notice_of_objection.title",
+          "bodyKey": "on-cra-022.tpl.notice_of_objection.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-023",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "taxpayer_relief_request"
+      ],
+      "templates": {
+        "taxpayer_relief_request": {
+          "titleKey": "on-cra-023.tpl.taxpayer_relief_request.title",
+          "bodyKey": "on-cra-023.tpl.taxpayer_relief_request.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-024",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "taxpayer_relief_request"
+      ],
+      "templates": {
+        "taxpayer_relief_request": {
+          "titleKey": "on-cra-024.tpl.taxpayer_relief_request.title",
+          "bodyKey": "on-cra-024.tpl.taxpayer_relief_request.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-025",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-025.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-025.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-026",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-026.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-026.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-027",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-027.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-027.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-028",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-028.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-028.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-029",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-029.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-029.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-030",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-030.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-030.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-031",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-031.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-031.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-032",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-032.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-032.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-033",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-033.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-033.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-034",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "notice_of_objection"
+      ],
+      "templates": {
+        "notice_of_objection": {
+          "titleKey": "on-cra-034.tpl.notice_of_objection.title",
+          "bodyKey": "on-cra-034.tpl.notice_of_objection.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-035",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-035.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-035.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-036",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-036.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-036.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-037",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "notice_of_objection"
+      ],
+      "templates": {
+        "notice_of_objection": {
+          "titleKey": "on-cra-037.tpl.notice_of_objection.title",
+          "bodyKey": "on-cra-037.tpl.notice_of_objection.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-038",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "notice_of_objection"
+      ],
+      "templates": {
+        "notice_of_objection": {
+          "titleKey": "on-cra-038.tpl.notice_of_objection.title",
+          "bodyKey": "on-cra-038.tpl.notice_of_objection.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-039",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-039.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-039.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-040",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "cra_dispute_letter"
+      ],
+      "templates": {
+        "cra_dispute_letter": {
+          "titleKey": "on-cra-040.tpl.cra_dispute_letter.title",
+          "bodyKey": "on-cra-040.tpl.cra_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-041",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "notice_of_objection"
+      ],
+      "templates": {
+        "notice_of_objection": {
+          "titleKey": "on-cra-041.tpl.notice_of_objection.title",
+          "bodyKey": "on-cra-041.tpl.notice_of_objection.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-042",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "taxpayer_relief_request"
+      ],
+      "templates": {
+        "taxpayer_relief_request": {
+          "titleKey": "on-cra-042.tpl.taxpayer_relief_request.title",
+          "bodyKey": "on-cra-042.tpl.taxpayer_relief_request.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-043",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "ombudsperson_complaint"
+      ],
+      "templates": {
+        "ombudsperson_complaint": {
+          "titleKey": "on-cra-043.tpl.ombudsperson_complaint.title",
+          "bodyKey": "on-cra-043.tpl.ombudsperson_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-044",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "ombudsperson_complaint"
+      ],
+      "templates": {
+        "ombudsperson_complaint": {
+          "titleKey": "on-cra-044.tpl.ombudsperson_complaint.title",
+          "bodyKey": "on-cra-044.tpl.ombudsperson_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-045",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "tax_court_appeal"
+      ],
+      "templates": {
+        "tax_court_appeal": {
+          "titleKey": "on-cra-045.tpl.tax_court_appeal.title",
+          "bodyKey": "on-cra-045.tpl.tax_court_appeal.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-046",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "classification_query"
+      ],
+      "templates": {
+        "classification_query": {
+          "titleKey": "on-cra-046.tpl.classification_query.title",
+          "bodyKey": "on-cra-046.tpl.classification_query.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-047",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "classification_query"
+      ],
+      "templates": {
+        "classification_query": {
+          "titleKey": "on-cra-047.tpl.classification_query.title",
+          "bodyKey": "on-cra-047.tpl.classification_query.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CRA-048",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "classification_query"
+      ],
+      "templates": {
+        "classification_query": {
+          "titleKey": "on-cra-048.tpl.classification_query.title",
+          "bodyKey": "on-cra-048.tpl.classification_query.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-TL-T-01",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "maintenance_demand_letter",
+        "ltb_t6_application"
+      ],
+      "templates": {
+        "maintenance_demand_letter": {
+          "titleKey": "on-tl-t-01.tpl.maintenance_demand_letter.title",
+          "bodyKey": "on-tl-t-01.tpl.maintenance_demand_letter.body"
+        },
+        "ltb_t6_application": {
+          "titleKey": "on-tl-t-01.tpl.ltb_t6_application.title",
+          "bodyKey": "on-tl-t-01.tpl.ltb_t6_application.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-TL-T-02",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "rent_abatement_request",
+        "ltb_t1_application"
+      ],
+      "templates": {
+        "rent_abatement_request": {
+          "titleKey": "on-tl-t-02.tpl.rent_abatement_request.title",
+          "bodyKey": "on-tl-t-02.tpl.rent_abatement_request.body"
+        },
+        "ltb_t1_application": {
+          "titleKey": "on-tl-t-02.tpl.ltb_t1_application.title",
+          "bodyKey": "on-tl-t-02.tpl.ltb_t1_application.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-TL-T-03",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "illegal_entry_complaint",
+        "ltb_t2_application"
+      ],
+      "templates": {
+        "illegal_entry_complaint": {
+          "titleKey": "on-tl-t-03.tpl.illegal_entry_complaint.title",
+          "bodyKey": "on-tl-t-03.tpl.illegal_entry_complaint.body"
+        },
+        "ltb_t2_application": {
+          "titleKey": "on-tl-t-03.tpl.ltb_t2_application.title",
+          "bodyKey": "on-tl-t-03.tpl.ltb_t2_application.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-TL-T-04",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "agi_dispute_letter",
+        "ltb_t1_application"
+      ],
+      "templates": {
+        "agi_dispute_letter": {
+          "titleKey": "on-tl-t-04.tpl.agi_dispute_letter.title",
+          "bodyKey": "on-tl-t-04.tpl.agi_dispute_letter.body"
+        },
+        "ltb_t1_application": {
+          "titleKey": "on-tl-t-04.tpl.ltb_t1_application.title",
+          "bodyKey": "on-tl-t-04.tpl.ltb_t1_application.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-TL-T-05",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "unlawful_eviction_demand",
+        "ltb_t2_application"
+      ],
+      "templates": {
+        "unlawful_eviction_demand": {
+          "titleKey": "on-tl-t-05.tpl.unlawful_eviction_demand.title",
+          "bodyKey": "on-tl-t-05.tpl.unlawful_eviction_demand.body"
+        },
+        "ltb_t2_application": {
+          "titleKey": "on-tl-t-05.tpl.ltb_t2_application.title",
+          "bodyKey": "on-tl-t-05.tpl.ltb_t2_application.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-TL-T-06",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "hrto_complaint"
+      ],
+      "templates": {
+        "hrto_complaint": {
+          "titleKey": "on-tl-t-06.tpl.hrto_complaint.title",
+          "bodyKey": "on-tl-t-06.tpl.hrto_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-TL-T-07",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "vital_services_demand",
+        "ltb_t6_application"
+      ],
+      "templates": {
+        "vital_services_demand": {
+          "titleKey": "on-tl-t-07.tpl.vital_services_demand.title",
+          "bodyKey": "on-tl-t-07.tpl.vital_services_demand.body"
+        },
+        "ltb_t6_application": {
+          "titleKey": "on-tl-t-07.tpl.ltb_t6_application.title",
+          "bodyKey": "on-tl-t-07.tpl.ltb_t6_application.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-TL-L-01",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "n4_notice_non_payment",
+        "ltb_l1_application"
+      ],
+      "templates": {
+        "n4_notice_non_payment": {
+          "titleKey": "on-tl-l-01.tpl.n4_notice_non_payment.title",
+          "bodyKey": "on-tl-l-01.tpl.n4_notice_non_payment.body"
+        },
+        "ltb_l1_application": {
+          "titleKey": "on-tl-l-01.tpl.ltb_l1_application.title",
+          "bodyKey": "on-tl-l-01.tpl.ltb_l1_application.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-TL-L-02",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "n8_notice_persistent_late",
+        "ltb_l2_application"
+      ],
+      "templates": {
+        "n8_notice_persistent_late": {
+          "titleKey": "on-tl-l-02.tpl.n8_notice_persistent_late.title",
+          "bodyKey": "on-tl-l-02.tpl.n8_notice_persistent_late.body"
+        },
+        "ltb_l2_application": {
+          "titleKey": "on-tl-l-02.tpl.ltb_l2_application.title",
+          "bodyKey": "on-tl-l-02.tpl.ltb_l2_application.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-TL-L-03",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "n5_notice_illegal_acts",
+        "ltb_l2_application"
+      ],
+      "templates": {
+        "n5_notice_illegal_acts": {
+          "titleKey": "on-tl-l-03.tpl.n5_notice_illegal_acts.title",
+          "bodyKey": "on-tl-l-03.tpl.n5_notice_illegal_acts.body"
+        },
+        "ltb_l2_application": {
+          "titleKey": "on-tl-l-03.tpl.ltb_l2_application.title",
+          "bodyKey": "on-tl-l-03.tpl.ltb_l2_application.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-TL-L-04",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "enforcement_request"
+      ],
+      "templates": {
+        "enforcement_request": {
+          "titleKey": "on-tl-l-04.tpl.enforcement_request.title",
+          "bodyKey": "on-tl-l-04.tpl.enforcement_request.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-TL-G-01",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "classification_query"
+      ],
+      "templates": {
+        "classification_query": {
+          "titleKey": "on-tl-g-01.tpl.classification_query.title",
+          "bodyKey": "on-tl-g-01.tpl.classification_query.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-TL-G-02",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "classification_query"
+      ],
+      "templates": {
+        "classification_query": {
+          "titleKey": "on-tl-g-02.tpl.classification_query.title",
+          "bodyKey": "on-tl-g-02.tpl.classification_query.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-INS-001",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "claim_dispute_letter",
+        "fsra_complaint"
+      ],
+      "templates": {
+        "claim_dispute_letter": {
+          "titleKey": "on-ins-001.tpl.claim_dispute_letter.title",
+          "bodyKey": "on-ins-001.tpl.claim_dispute_letter.body"
+        },
+        "fsra_complaint": {
+          "titleKey": "on-ins-001.tpl.fsra_complaint.title",
+          "bodyKey": "on-ins-001.tpl.fsra_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-INS-010",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "lat_application",
+        "claim_dispute_letter"
+      ],
+      "templates": {
+        "lat_application": {
+          "titleKey": "on-ins-010.tpl.lat_application.title",
+          "bodyKey": "on-ins-010.tpl.lat_application.body"
+        },
+        "claim_dispute_letter": {
+          "titleKey": "on-ins-010.tpl.claim_dispute_letter.title",
+          "bodyKey": "on-ins-010.tpl.claim_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-INS-018",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "claim_dispute_letter",
+        "fsra_complaint"
+      ],
+      "templates": {
+        "claim_dispute_letter": {
+          "titleKey": "on-ins-018.tpl.claim_dispute_letter.title",
+          "bodyKey": "on-ins-018.tpl.claim_dispute_letter.body"
+        },
+        "fsra_complaint": {
+          "titleKey": "on-ins-018.tpl.fsra_complaint.title",
+          "bodyKey": "on-ins-018.tpl.fsra_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-INS-024",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "claim_dispute_letter",
+        "fsra_complaint"
+      ],
+      "templates": {
+        "claim_dispute_letter": {
+          "titleKey": "on-ins-024.tpl.claim_dispute_letter.title",
+          "bodyKey": "on-ins-024.tpl.claim_dispute_letter.body"
+        },
+        "fsra_complaint": {
+          "titleKey": "on-ins-024.tpl.fsra_complaint.title",
+          "bodyKey": "on-ins-024.tpl.fsra_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-INS-028",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "claim_dispute_letter",
+        "fsra_complaint"
+      ],
+      "templates": {
+        "claim_dispute_letter": {
+          "titleKey": "on-ins-028.tpl.claim_dispute_letter.title",
+          "bodyKey": "on-ins-028.tpl.claim_dispute_letter.body"
+        },
+        "fsra_complaint": {
+          "titleKey": "on-ins-028.tpl.fsra_complaint.title",
+          "bodyKey": "on-ins-028.tpl.fsra_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-INS-034",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "broker_complaint_letter",
+        "fsra_complaint"
+      ],
+      "templates": {
+        "broker_complaint_letter": {
+          "titleKey": "on-ins-034.tpl.broker_complaint_letter.title",
+          "bodyKey": "on-ins-034.tpl.broker_complaint_letter.body"
+        },
+        "fsra_complaint": {
+          "titleKey": "on-ins-034.tpl.fsra_complaint.title",
+          "bodyKey": "on-ins-034.tpl.fsra_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-INS-038",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "claim_dispute_letter",
+        "fsra_complaint"
+      ],
+      "templates": {
+        "claim_dispute_letter": {
+          "titleKey": "on-ins-038.tpl.claim_dispute_letter.title",
+          "bodyKey": "on-ins-038.tpl.claim_dispute_letter.body"
+        },
+        "fsra_complaint": {
+          "titleKey": "on-ins-038.tpl.fsra_complaint.title",
+          "bodyKey": "on-ins-038.tpl.fsra_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-INS-043",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "oic_complaint"
+      ],
+      "templates": {
+        "oic_complaint": {
+          "titleKey": "on-ins-043.tpl.oic_complaint.title",
+          "bodyKey": "on-ins-043.tpl.oic_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-INS-048",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "claim_dispute_letter",
+        "fsra_complaint"
+      ],
+      "templates": {
+        "claim_dispute_letter": {
+          "titleKey": "on-ins-048.tpl.claim_dispute_letter.title",
+          "bodyKey": "on-ins-048.tpl.claim_dispute_letter.body"
+        },
+        "fsra_complaint": {
+          "titleKey": "on-ins-048.tpl.fsra_complaint.title",
+          "bodyKey": "on-ins-048.tpl.fsra_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-INS-053",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "court_claim_statement"
+      ],
+      "templates": {
+        "court_claim_statement": {
+          "titleKey": "on-ins-053.tpl.court_claim_statement.title",
+          "bodyKey": "on-ins-053.tpl.court_claim_statement.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-INS-057",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "small_claims_plaintiff_claim"
+      ],
+      "templates": {
+        "small_claims_plaintiff_claim": {
+          "titleKey": "on-ins-057.tpl.small_claims_plaintiff_claim.title",
+          "bodyKey": "on-ins-057.tpl.small_claims_plaintiff_claim.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-INS-061",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "lat_application",
+        "claim_dispute_letter"
+      ],
+      "templates": {
+        "lat_application": {
+          "titleKey": "on-ins-061.tpl.lat_application.title",
+          "bodyKey": "on-ins-061.tpl.lat_application.body"
+        },
+        "claim_dispute_letter": {
+          "titleKey": "on-ins-061.tpl.claim_dispute_letter.title",
+          "bodyKey": "on-ins-061.tpl.claim_dispute_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-001",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "consumer_complaint_letter",
+        "cpo_complaint"
+      ],
+      "templates": {
+        "consumer_complaint_letter": {
+          "titleKey": "on-con-001.tpl.consumer_complaint_letter.title",
+          "bodyKey": "on-con-001.tpl.consumer_complaint_letter.body"
+        },
+        "cpo_complaint": {
+          "titleKey": "on-con-001.tpl.cpo_complaint.title",
+          "bodyKey": "on-con-001.tpl.cpo_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-002",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "consumer_complaint_letter",
+        "cpo_complaint"
+      ],
+      "templates": {
+        "consumer_complaint_letter": {
+          "titleKey": "on-con-002.tpl.consumer_complaint_letter.title",
+          "bodyKey": "on-con-002.tpl.consumer_complaint_letter.body"
+        },
+        "cpo_complaint": {
+          "titleKey": "on-con-002.tpl.cpo_complaint.title",
+          "bodyKey": "on-con-002.tpl.cpo_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-003",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "cancellation_notice",
+        "cpo_complaint"
+      ],
+      "templates": {
+        "cancellation_notice": {
+          "titleKey": "on-con-003.tpl.cancellation_notice.title",
+          "bodyKey": "on-con-003.tpl.cancellation_notice.body"
+        },
+        "cpo_complaint": {
+          "titleKey": "on-con-003.tpl.cpo_complaint.title",
+          "bodyKey": "on-con-003.tpl.cpo_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-004",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "cancellation_notice",
+        "cpo_complaint"
+      ],
+      "templates": {
+        "cancellation_notice": {
+          "titleKey": "on-con-004.tpl.cancellation_notice.title",
+          "bodyKey": "on-con-004.tpl.cancellation_notice.body"
+        },
+        "cpo_complaint": {
+          "titleKey": "on-con-004.tpl.cpo_complaint.title",
+          "bodyKey": "on-con-004.tpl.cpo_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-005",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "cancellation_notice",
+        "cpo_complaint"
+      ],
+      "templates": {
+        "cancellation_notice": {
+          "titleKey": "on-con-005.tpl.cancellation_notice.title",
+          "bodyKey": "on-con-005.tpl.cancellation_notice.body"
+        },
+        "cpo_complaint": {
+          "titleKey": "on-con-005.tpl.cpo_complaint.title",
+          "bodyKey": "on-con-005.tpl.cpo_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-006",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "consumer_complaint_letter",
+        "cpo_complaint"
+      ],
+      "templates": {
+        "consumer_complaint_letter": {
+          "titleKey": "on-con-006.tpl.consumer_complaint_letter.title",
+          "bodyKey": "on-con-006.tpl.consumer_complaint_letter.body"
+        },
+        "cpo_complaint": {
+          "titleKey": "on-con-006.tpl.cpo_complaint.title",
+          "bodyKey": "on-con-006.tpl.cpo_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-007",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "consumer_complaint_letter",
+        "cpo_complaint"
+      ],
+      "templates": {
+        "consumer_complaint_letter": {
+          "titleKey": "on-con-007.tpl.consumer_complaint_letter.title",
+          "bodyKey": "on-con-007.tpl.consumer_complaint_letter.body"
+        },
+        "cpo_complaint": {
+          "titleKey": "on-con-007.tpl.cpo_complaint.title",
+          "bodyKey": "on-con-007.tpl.cpo_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-008",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "consumer_complaint_letter",
+        "cpo_complaint"
+      ],
+      "templates": {
+        "consumer_complaint_letter": {
+          "titleKey": "on-con-008.tpl.consumer_complaint_letter.title",
+          "bodyKey": "on-con-008.tpl.consumer_complaint_letter.body"
+        },
+        "cpo_complaint": {
+          "titleKey": "on-con-008.tpl.cpo_complaint.title",
+          "bodyKey": "on-con-008.tpl.cpo_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-009",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "cancellation_notice",
+        "cpo_complaint"
+      ],
+      "templates": {
+        "cancellation_notice": {
+          "titleKey": "on-con-009.tpl.cancellation_notice.title",
+          "bodyKey": "on-con-009.tpl.cancellation_notice.body"
+        },
+        "cpo_complaint": {
+          "titleKey": "on-con-009.tpl.cpo_complaint.title",
+          "bodyKey": "on-con-009.tpl.cpo_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-010",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "debt_harassment_complaint",
+        "cpo_complaint"
+      ],
+      "templates": {
+        "debt_harassment_complaint": {
+          "titleKey": "on-con-010.tpl.debt_harassment_complaint.title",
+          "bodyKey": "on-con-010.tpl.debt_harassment_complaint.body"
+        },
+        "cpo_complaint": {
+          "titleKey": "on-con-010.tpl.cpo_complaint.title",
+          "bodyKey": "on-con-010.tpl.cpo_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-011",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "bank_complaint_letter",
+        "fcac_complaint"
+      ],
+      "templates": {
+        "bank_complaint_letter": {
+          "titleKey": "on-con-011.tpl.bank_complaint_letter.title",
+          "bodyKey": "on-con-011.tpl.bank_complaint_letter.body"
+        },
+        "fcac_complaint": {
+          "titleKey": "on-con-011.tpl.fcac_complaint.title",
+          "bodyKey": "on-con-011.tpl.fcac_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-012",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "bank_complaint_letter",
+        "fcac_complaint"
+      ],
+      "templates": {
+        "bank_complaint_letter": {
+          "titleKey": "on-con-012.tpl.bank_complaint_letter.title",
+          "bodyKey": "on-con-012.tpl.bank_complaint_letter.body"
+        },
+        "fcac_complaint": {
+          "titleKey": "on-con-012.tpl.fcac_complaint.title",
+          "bodyKey": "on-con-012.tpl.fcac_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-013",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "bank_complaint_letter",
+        "fcac_complaint"
+      ],
+      "templates": {
+        "bank_complaint_letter": {
+          "titleKey": "on-con-013.tpl.bank_complaint_letter.title",
+          "bodyKey": "on-con-013.tpl.bank_complaint_letter.body"
+        },
+        "fcac_complaint": {
+          "titleKey": "on-con-013.tpl.fcac_complaint.title",
+          "bodyKey": "on-con-013.tpl.fcac_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-014",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "investment_complaint",
+        "obsi_complaint"
+      ],
+      "templates": {
+        "investment_complaint": {
+          "titleKey": "on-con-014.tpl.investment_complaint.title",
+          "bodyKey": "on-con-014.tpl.investment_complaint.body"
+        },
+        "obsi_complaint": {
+          "titleKey": "on-con-014.tpl.obsi_complaint.title",
+          "bodyKey": "on-con-014.tpl.obsi_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-015",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "bank_complaint_letter",
+        "fcac_complaint"
+      ],
+      "templates": {
+        "bank_complaint_letter": {
+          "titleKey": "on-con-015.tpl.bank_complaint_letter.title",
+          "bodyKey": "on-con-015.tpl.bank_complaint_letter.body"
+        },
+        "fcac_complaint": {
+          "titleKey": "on-con-015.tpl.fcac_complaint.title",
+          "bodyKey": "on-con-015.tpl.fcac_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-016",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "bank_complaint_letter",
+        "fcac_complaint"
+      ],
+      "templates": {
+        "bank_complaint_letter": {
+          "titleKey": "on-con-016.tpl.bank_complaint_letter.title",
+          "bodyKey": "on-con-016.tpl.bank_complaint_letter.body"
+        },
+        "fcac_complaint": {
+          "titleKey": "on-con-016.tpl.fcac_complaint.title",
+          "bodyKey": "on-con-016.tpl.fcac_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-017",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "bank_complaint_letter",
+        "fcac_complaint"
+      ],
+      "templates": {
+        "bank_complaint_letter": {
+          "titleKey": "on-con-017.tpl.bank_complaint_letter.title",
+          "bodyKey": "on-con-017.tpl.bank_complaint_letter.body"
+        },
+        "fcac_complaint": {
+          "titleKey": "on-con-017.tpl.fcac_complaint.title",
+          "bodyKey": "on-con-017.tpl.fcac_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-018",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "demand_letter",
+        "small_claims_plaintiff_claim"
+      ],
+      "templates": {
+        "demand_letter": {
+          "titleKey": "on-con-018.tpl.demand_letter.title",
+          "bodyKey": "on-con-018.tpl.demand_letter.body"
+        },
+        "small_claims_plaintiff_claim": {
+          "titleKey": "on-con-018.tpl.small_claims_plaintiff_claim.title",
+          "bodyKey": "on-con-018.tpl.small_claims_plaintiff_claim.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-019",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "demand_letter",
+        "small_claims_plaintiff_claim"
+      ],
+      "templates": {
+        "demand_letter": {
+          "titleKey": "on-con-019.tpl.demand_letter.title",
+          "bodyKey": "on-con-019.tpl.demand_letter.body"
+        },
+        "small_claims_plaintiff_claim": {
+          "titleKey": "on-con-019.tpl.small_claims_plaintiff_claim.title",
+          "bodyKey": "on-con-019.tpl.small_claims_plaintiff_claim.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-020",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "demand_letter",
+        "small_claims_plaintiff_claim"
+      ],
+      "templates": {
+        "demand_letter": {
+          "titleKey": "on-con-020.tpl.demand_letter.title",
+          "bodyKey": "on-con-020.tpl.demand_letter.body"
+        },
+        "small_claims_plaintiff_claim": {
+          "titleKey": "on-con-020.tpl.small_claims_plaintiff_claim.title",
+          "bodyKey": "on-con-020.tpl.small_claims_plaintiff_claim.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-021",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "demand_letter",
+        "small_claims_plaintiff_claim"
+      ],
+      "templates": {
+        "demand_letter": {
+          "titleKey": "on-con-021.tpl.demand_letter.title",
+          "bodyKey": "on-con-021.tpl.demand_letter.body"
+        },
+        "small_claims_plaintiff_claim": {
+          "titleKey": "on-con-021.tpl.small_claims_plaintiff_claim.title",
+          "bodyKey": "on-con-021.tpl.small_claims_plaintiff_claim.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-022",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "service_complaint_letter",
+        "ccts_oeb_complaint"
+      ],
+      "templates": {
+        "service_complaint_letter": {
+          "titleKey": "on-con-022.tpl.service_complaint_letter.title",
+          "bodyKey": "on-con-022.tpl.service_complaint_letter.body"
+        },
+        "ccts_oeb_complaint": {
+          "titleKey": "on-con-022.tpl.ccts_oeb_complaint.title",
+          "bodyKey": "on-con-022.tpl.ccts_oeb_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-023",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "service_complaint_letter",
+        "ccts_oeb_complaint"
+      ],
+      "templates": {
+        "service_complaint_letter": {
+          "titleKey": "on-con-023.tpl.service_complaint_letter.title",
+          "bodyKey": "on-con-023.tpl.service_complaint_letter.body"
+        },
+        "ccts_oeb_complaint": {
+          "titleKey": "on-con-023.tpl.ccts_oeb_complaint.title",
+          "bodyKey": "on-con-023.tpl.ccts_oeb_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-024",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "service_complaint_letter",
+        "ccts_oeb_complaint"
+      ],
+      "templates": {
+        "service_complaint_letter": {
+          "titleKey": "on-con-024.tpl.service_complaint_letter.title",
+          "bodyKey": "on-con-024.tpl.service_complaint_letter.body"
+        },
+        "ccts_oeb_complaint": {
+          "titleKey": "on-con-024.tpl.ccts_oeb_complaint.title",
+          "bodyKey": "on-con-024.tpl.ccts_oeb_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-025",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "service_complaint_letter",
+        "ccts_oeb_complaint"
+      ],
+      "templates": {
+        "service_complaint_letter": {
+          "titleKey": "on-con-025.tpl.service_complaint_letter.title",
+          "bodyKey": "on-con-025.tpl.service_complaint_letter.body"
+        },
+        "ccts_oeb_complaint": {
+          "titleKey": "on-con-025.tpl.ccts_oeb_complaint.title",
+          "bodyKey": "on-con-025.tpl.ccts_oeb_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-026",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "air_passenger_claim",
+        "cta_complaint"
+      ],
+      "templates": {
+        "air_passenger_claim": {
+          "titleKey": "on-con-026.tpl.air_passenger_claim.title",
+          "bodyKey": "on-con-026.tpl.air_passenger_claim.body"
+        },
+        "cta_complaint": {
+          "titleKey": "on-con-026.tpl.cta_complaint.title",
+          "bodyKey": "on-con-026.tpl.cta_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-027",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "air_passenger_claim",
+        "cta_complaint"
+      ],
+      "templates": {
+        "air_passenger_claim": {
+          "titleKey": "on-con-027.tpl.air_passenger_claim.title",
+          "bodyKey": "on-con-027.tpl.air_passenger_claim.body"
+        },
+        "cta_complaint": {
+          "titleKey": "on-con-027.tpl.cta_complaint.title",
+          "bodyKey": "on-con-027.tpl.cta_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-028",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "privacy_complaint",
+        "opc_complaint"
+      ],
+      "templates": {
+        "privacy_complaint": {
+          "titleKey": "on-con-028.tpl.privacy_complaint.title",
+          "bodyKey": "on-con-028.tpl.privacy_complaint.body"
+        },
+        "opc_complaint": {
+          "titleKey": "on-con-028.tpl.opc_complaint.title",
+          "bodyKey": "on-con-028.tpl.opc_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-CON-029",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "templatesRef": [
+        "product_safety_complaint",
+        "health_ca_complaint"
+      ],
+      "templates": {
+        "product_safety_complaint": {
+          "titleKey": "on-con-029.tpl.product_safety_complaint.title",
+          "bodyKey": "on-con-029.tpl.product_safety_complaint.body"
+        },
+        "health_ca_complaint": {
+          "titleKey": "on-con-029.tpl.health_ca_complaint.title",
+          "bodyKey": "on-con-029.tpl.health_ca_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-001",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "wsib_claim_letter",
+        "wsib_appeal_request"
+      ],
+      "templates": {
+        "wsib_claim_letter": {
+          "titleKey": "on-wp-001.tpl.wsib_claim_letter.title",
+          "bodyKey": "on-wp-001.tpl.wsib_claim_letter.body"
+        },
+        "wsib_appeal_request": {
+          "titleKey": "on-wp-001.tpl.wsib_appeal_request.title",
+          "bodyKey": "on-wp-001.tpl.wsib_appeal_request.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-002",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "wsib_claim_letter",
+        "wsib_appeal_request"
+      ],
+      "templates": {
+        "wsib_claim_letter": {
+          "titleKey": "on-wp-002.tpl.wsib_claim_letter.title",
+          "bodyKey": "on-wp-002.tpl.wsib_claim_letter.body"
+        },
+        "wsib_appeal_request": {
+          "titleKey": "on-wp-002.tpl.wsib_appeal_request.title",
+          "bodyKey": "on-wp-002.tpl.wsib_appeal_request.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-003",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "wsib_claim_letter",
+        "wsib_appeal_request"
+      ],
+      "templates": {
+        "wsib_claim_letter": {
+          "titleKey": "on-wp-003.tpl.wsib_claim_letter.title",
+          "bodyKey": "on-wp-003.tpl.wsib_claim_letter.body"
+        },
+        "wsib_appeal_request": {
+          "titleKey": "on-wp-003.tpl.wsib_appeal_request.title",
+          "bodyKey": "on-wp-003.tpl.wsib_appeal_request.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-004",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "wsib_claim_letter",
+        "wsib_appeal_request"
+      ],
+      "templates": {
+        "wsib_claim_letter": {
+          "titleKey": "on-wp-004.tpl.wsib_claim_letter.title",
+          "bodyKey": "on-wp-004.tpl.wsib_claim_letter.body"
+        },
+        "wsib_appeal_request": {
+          "titleKey": "on-wp-004.tpl.wsib_appeal_request.title",
+          "bodyKey": "on-wp-004.tpl.wsib_appeal_request.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-005",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "wsib_claim_letter",
+        "wsib_appeal_request"
+      ],
+      "templates": {
+        "wsib_claim_letter": {
+          "titleKey": "on-wp-005.tpl.wsib_claim_letter.title",
+          "bodyKey": "on-wp-005.tpl.wsib_claim_letter.body"
+        },
+        "wsib_appeal_request": {
+          "titleKey": "on-wp-005.tpl.wsib_appeal_request.title",
+          "bodyKey": "on-wp-005.tpl.wsib_appeal_request.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-006",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "wsib_claim_letter",
+        "wsib_appeal_request"
+      ],
+      "templates": {
+        "wsib_claim_letter": {
+          "titleKey": "on-wp-006.tpl.wsib_claim_letter.title",
+          "bodyKey": "on-wp-006.tpl.wsib_claim_letter.body"
+        },
+        "wsib_appeal_request": {
+          "titleKey": "on-wp-006.tpl.wsib_appeal_request.title",
+          "bodyKey": "on-wp-006.tpl.wsib_appeal_request.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-007",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "wsib_claim_letter",
+        "wsib_appeal_request"
+      ],
+      "templates": {
+        "wsib_claim_letter": {
+          "titleKey": "on-wp-007.tpl.wsib_claim_letter.title",
+          "bodyKey": "on-wp-007.tpl.wsib_claim_letter.body"
+        },
+        "wsib_appeal_request": {
+          "titleKey": "on-wp-007.tpl.wsib_appeal_request.title",
+          "bodyKey": "on-wp-007.tpl.wsib_appeal_request.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-008",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "wsib_claim_letter",
+        "wsib_appeal_request"
+      ],
+      "templates": {
+        "wsib_claim_letter": {
+          "titleKey": "on-wp-008.tpl.wsib_claim_letter.title",
+          "bodyKey": "on-wp-008.tpl.wsib_claim_letter.body"
+        },
+        "wsib_appeal_request": {
+          "titleKey": "on-wp-008.tpl.wsib_appeal_request.title",
+          "bodyKey": "on-wp-008.tpl.wsib_appeal_request.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-009",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "unpaid_wages_demand",
+        "eso_complaint"
+      ],
+      "templates": {
+        "unpaid_wages_demand": {
+          "titleKey": "on-wp-009.tpl.unpaid_wages_demand.title",
+          "bodyKey": "on-wp-009.tpl.unpaid_wages_demand.body"
+        },
+        "eso_complaint": {
+          "titleKey": "on-wp-009.tpl.eso_complaint.title",
+          "bodyKey": "on-wp-009.tpl.eso_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-010",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "unpaid_wages_demand",
+        "eso_complaint"
+      ],
+      "templates": {
+        "unpaid_wages_demand": {
+          "titleKey": "on-wp-010.tpl.unpaid_wages_demand.title",
+          "bodyKey": "on-wp-010.tpl.unpaid_wages_demand.body"
+        },
+        "eso_complaint": {
+          "titleKey": "on-wp-010.tpl.eso_complaint.title",
+          "bodyKey": "on-wp-010.tpl.eso_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-011",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "unpaid_wages_demand",
+        "eso_complaint"
+      ],
+      "templates": {
+        "unpaid_wages_demand": {
+          "titleKey": "on-wp-011.tpl.unpaid_wages_demand.title",
+          "bodyKey": "on-wp-011.tpl.unpaid_wages_demand.body"
+        },
+        "eso_complaint": {
+          "titleKey": "on-wp-011.tpl.eso_complaint.title",
+          "bodyKey": "on-wp-011.tpl.eso_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-012",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "unpaid_wages_demand",
+        "eso_complaint"
+      ],
+      "templates": {
+        "unpaid_wages_demand": {
+          "titleKey": "on-wp-012.tpl.unpaid_wages_demand.title",
+          "bodyKey": "on-wp-012.tpl.unpaid_wages_demand.body"
+        },
+        "eso_complaint": {
+          "titleKey": "on-wp-012.tpl.eso_complaint.title",
+          "bodyKey": "on-wp-012.tpl.eso_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-013",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "unpaid_wages_demand",
+        "eso_complaint"
+      ],
+      "templates": {
+        "unpaid_wages_demand": {
+          "titleKey": "on-wp-013.tpl.unpaid_wages_demand.title",
+          "bodyKey": "on-wp-013.tpl.unpaid_wages_demand.body"
+        },
+        "eso_complaint": {
+          "titleKey": "on-wp-013.tpl.eso_complaint.title",
+          "bodyKey": "on-wp-013.tpl.eso_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-014",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "reprisal_complaint",
+        "olrb_application"
+      ],
+      "templates": {
+        "reprisal_complaint": {
+          "titleKey": "on-wp-014.tpl.reprisal_complaint.title",
+          "bodyKey": "on-wp-014.tpl.reprisal_complaint.body"
+        },
+        "olrb_application": {
+          "titleKey": "on-wp-014.tpl.olrb_application.title",
+          "bodyKey": "on-wp-014.tpl.olrb_application.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-015",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "hrto_complaint",
+        "discrimination_demand_letter"
+      ],
+      "templates": {
+        "hrto_complaint": {
+          "titleKey": "on-wp-015.tpl.hrto_complaint.title",
+          "bodyKey": "on-wp-015.tpl.hrto_complaint.body"
+        },
+        "discrimination_demand_letter": {
+          "titleKey": "on-wp-015.tpl.discrimination_demand_letter.title",
+          "bodyKey": "on-wp-015.tpl.discrimination_demand_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-016",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "hrto_complaint",
+        "discrimination_demand_letter"
+      ],
+      "templates": {
+        "hrto_complaint": {
+          "titleKey": "on-wp-016.tpl.hrto_complaint.title",
+          "bodyKey": "on-wp-016.tpl.hrto_complaint.body"
+        },
+        "discrimination_demand_letter": {
+          "titleKey": "on-wp-016.tpl.discrimination_demand_letter.title",
+          "bodyKey": "on-wp-016.tpl.discrimination_demand_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-017",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "hrto_complaint",
+        "discrimination_demand_letter"
+      ],
+      "templates": {
+        "hrto_complaint": {
+          "titleKey": "on-wp-017.tpl.hrto_complaint.title",
+          "bodyKey": "on-wp-017.tpl.hrto_complaint.body"
+        },
+        "discrimination_demand_letter": {
+          "titleKey": "on-wp-017.tpl.discrimination_demand_letter.title",
+          "bodyKey": "on-wp-017.tpl.discrimination_demand_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-018",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "hrto_complaint",
+        "discrimination_demand_letter"
+      ],
+      "templates": {
+        "hrto_complaint": {
+          "titleKey": "on-wp-018.tpl.hrto_complaint.title",
+          "bodyKey": "on-wp-018.tpl.hrto_complaint.body"
+        },
+        "discrimination_demand_letter": {
+          "titleKey": "on-wp-018.tpl.discrimination_demand_letter.title",
+          "bodyKey": "on-wp-018.tpl.discrimination_demand_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-019",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "hrto_complaint",
+        "discrimination_demand_letter"
+      ],
+      "templates": {
+        "hrto_complaint": {
+          "titleKey": "on-wp-019.tpl.hrto_complaint.title",
+          "bodyKey": "on-wp-019.tpl.hrto_complaint.body"
+        },
+        "discrimination_demand_letter": {
+          "titleKey": "on-wp-019.tpl.discrimination_demand_letter.title",
+          "bodyKey": "on-wp-019.tpl.discrimination_demand_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-020",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "hrto_complaint",
+        "discrimination_demand_letter"
+      ],
+      "templates": {
+        "hrto_complaint": {
+          "titleKey": "on-wp-020.tpl.hrto_complaint.title",
+          "bodyKey": "on-wp-020.tpl.hrto_complaint.body"
+        },
+        "discrimination_demand_letter": {
+          "titleKey": "on-wp-020.tpl.discrimination_demand_letter.title",
+          "bodyKey": "on-wp-020.tpl.discrimination_demand_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-021",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "ohs_refusal_notice",
+        "mol_ohs_complaint"
+      ],
+      "templates": {
+        "ohs_refusal_notice": {
+          "titleKey": "on-wp-021.tpl.ohs_refusal_notice.title",
+          "bodyKey": "on-wp-021.tpl.ohs_refusal_notice.body"
+        },
+        "mol_ohs_complaint": {
+          "titleKey": "on-wp-021.tpl.mol_ohs_complaint.title",
+          "bodyKey": "on-wp-021.tpl.mol_ohs_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-022",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "ohs_refusal_notice",
+        "mol_ohs_complaint"
+      ],
+      "templates": {
+        "ohs_refusal_notice": {
+          "titleKey": "on-wp-022.tpl.ohs_refusal_notice.title",
+          "bodyKey": "on-wp-022.tpl.ohs_refusal_notice.body"
+        },
+        "mol_ohs_complaint": {
+          "titleKey": "on-wp-022.tpl.mol_ohs_complaint.title",
+          "bodyKey": "on-wp-022.tpl.mol_ohs_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-023",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "ohs_refusal_notice",
+        "mol_ohs_complaint"
+      ],
+      "templates": {
+        "ohs_refusal_notice": {
+          "titleKey": "on-wp-023.tpl.ohs_refusal_notice.title",
+          "bodyKey": "on-wp-023.tpl.ohs_refusal_notice.body"
+        },
+        "mol_ohs_complaint": {
+          "titleKey": "on-wp-023.tpl.mol_ohs_complaint.title",
+          "bodyKey": "on-wp-023.tpl.mol_ohs_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-024",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "ohs_refusal_notice",
+        "mol_ohs_complaint"
+      ],
+      "templates": {
+        "ohs_refusal_notice": {
+          "titleKey": "on-wp-024.tpl.ohs_refusal_notice.title",
+          "bodyKey": "on-wp-024.tpl.ohs_refusal_notice.body"
+        },
+        "mol_ohs_complaint": {
+          "titleKey": "on-wp-024.tpl.mol_ohs_complaint.title",
+          "bodyKey": "on-wp-024.tpl.mol_ohs_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-025",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "ohs_refusal_notice",
+        "mol_ohs_complaint"
+      ],
+      "templates": {
+        "ohs_refusal_notice": {
+          "titleKey": "on-wp-025.tpl.ohs_refusal_notice.title",
+          "bodyKey": "on-wp-025.tpl.ohs_refusal_notice.body"
+        },
+        "mol_ohs_complaint": {
+          "titleKey": "on-wp-025.tpl.mol_ohs_complaint.title",
+          "bodyKey": "on-wp-025.tpl.mol_ohs_complaint.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-026",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "ei_reconsideration_request",
+        "ei_appeal_letter"
+      ],
+      "templates": {
+        "ei_reconsideration_request": {
+          "titleKey": "on-wp-026.tpl.ei_reconsideration_request.title",
+          "bodyKey": "on-wp-026.tpl.ei_reconsideration_request.body"
+        },
+        "ei_appeal_letter": {
+          "titleKey": "on-wp-026.tpl.ei_appeal_letter.title",
+          "bodyKey": "on-wp-026.tpl.ei_appeal_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-027",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "ei_reconsideration_request",
+        "ei_appeal_letter"
+      ],
+      "templates": {
+        "ei_reconsideration_request": {
+          "titleKey": "on-wp-027.tpl.ei_reconsideration_request.title",
+          "bodyKey": "on-wp-027.tpl.ei_reconsideration_request.body"
+        },
+        "ei_appeal_letter": {
+          "titleKey": "on-wp-027.tpl.ei_appeal_letter.title",
+          "bodyKey": "on-wp-027.tpl.ei_appeal_letter.body"
+        }
+      }
+    },
+    {
+      "scenarioId": "ON-WP-028",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "templatesRef": [
+        "ei_reconsideration_request",
+        "ei_appeal_letter"
+      ],
+      "templates": {
+        "ei_reconsideration_request": {
+          "titleKey": "on-wp-028.tpl.ei_reconsideration_request.title",
+          "bodyKey": "on-wp-028.tpl.ei_reconsideration_request.body"
+        },
+        "ei_appeal_letter": {
+          "titleKey": "on-wp-028.tpl.ei_appeal_letter.title",
+          "bodyKey": "on-wp-028.tpl.ei_appeal_letter.body"
+        }
+      }
+    }
+  ]
+}

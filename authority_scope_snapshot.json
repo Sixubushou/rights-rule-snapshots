@@ -1,0 +1,2929 @@
+{
+  "snapshot": "authority_scope",
+  "source": "current validated content data",
+  "totalScenarios": 153,
+  "items": [
+    {
+      "scenarioId": "ON-CONDO-001",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "endpointType": "CAT",
+      "authoritiesRef": [
+        "ON-CONDO-AUTH-001",
+        "ON-CONDO-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CONDO-AUTH-001",
+          "name": "Condominium Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-001.hint"
+        },
+        {
+          "id": "ON-CONDO-AUTH-002",
+          "name": "Condominium Authority Tribunal",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CONDO-002",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "endpointType": "CAT",
+      "authoritiesRef": [
+        "ON-CONDO-AUTH-001",
+        "ON-CONDO-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CONDO-AUTH-001",
+          "name": "Condominium Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-001.hint"
+        },
+        {
+          "id": "ON-CONDO-AUTH-002",
+          "name": "Condominium Authority Tribunal",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CONDO-003",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "endpointType": "CAT",
+      "authoritiesRef": [
+        "ON-CONDO-AUTH-001",
+        "ON-CONDO-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CONDO-AUTH-001",
+          "name": "Condominium Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-001.hint"
+        },
+        {
+          "id": "ON-CONDO-AUTH-002",
+          "name": "Condominium Authority Tribunal",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CONDO-004",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "endpointType": "CAT",
+      "authoritiesRef": [
+        "ON-CONDO-AUTH-001",
+        "ON-CONDO-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CONDO-AUTH-001",
+          "name": "Condominium Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-001.hint"
+        },
+        {
+          "id": "ON-CONDO-AUTH-002",
+          "name": "Condominium Authority Tribunal",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CONDO-005",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "endpointType": "GATE",
+      "authoritiesRef": [
+        "ON-CONDO-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CONDO-AUTH-001",
+          "name": "Condominium Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CONDO-006",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "endpointType": "CAT",
+      "authoritiesRef": [
+        "ON-CONDO-AUTH-001",
+        "ON-CONDO-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CONDO-AUTH-001",
+          "name": "Condominium Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-001.hint"
+        },
+        {
+          "id": "ON-CONDO-AUTH-002",
+          "name": "Condominium Authority Tribunal",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CONDO-007",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "endpointType": "CAT",
+      "authoritiesRef": [
+        "ON-CONDO-AUTH-001",
+        "ON-CONDO-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CONDO-AUTH-001",
+          "name": "Condominium Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-001.hint"
+        },
+        {
+          "id": "ON-CONDO-AUTH-002",
+          "name": "Condominium Authority Tribunal",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CONDO-008",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "endpointType": "GATE",
+      "authoritiesRef": [
+        "ON-CONDO-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CONDO-AUTH-001",
+          "name": "Condominium Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CONDO-009",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "endpointType": "CAT",
+      "authoritiesRef": [
+        "ON-CONDO-AUTH-001",
+        "ON-CONDO-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CONDO-AUTH-001",
+          "name": "Condominium Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-001.hint"
+        },
+        {
+          "id": "ON-CONDO-AUTH-002",
+          "name": "Condominium Authority Tribunal",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CONDO-010",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "endpointType": "CAT",
+      "authoritiesRef": [
+        "ON-CONDO-AUTH-001",
+        "ON-CONDO-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CONDO-AUTH-001",
+          "name": "Condominium Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-001.hint"
+        },
+        {
+          "id": "ON-CONDO-AUTH-002",
+          "name": "Condominium Authority Tribunal",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CONDO-011",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "endpointType": "CAT",
+      "authoritiesRef": [
+        "ON-CONDO-AUTH-001",
+        "ON-CONDO-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CONDO-AUTH-001",
+          "name": "Condominium Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-001.hint"
+        },
+        {
+          "id": "ON-CONDO-AUTH-002",
+          "name": "Condominium Authority Tribunal",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CONDO-012",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "endpointType": "CAT",
+      "authoritiesRef": [
+        "ON-CONDO-AUTH-001",
+        "ON-CONDO-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CONDO-AUTH-001",
+          "name": "Condominium Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-001.hint"
+        },
+        {
+          "id": "ON-CONDO-AUTH-002",
+          "name": "Condominium Authority Tribunal",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CONDO-013",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "endpointType": "COURT",
+      "authoritiesRef": [
+        "ON-CONDO-AUTH-003"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CONDO-AUTH-003",
+          "name": "Ontario Superior Court of Justice",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-003.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CONDO-014",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "endpointType": "COURT",
+      "authoritiesRef": [
+        "ON-CONDO-AUTH-003"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CONDO-AUTH-003",
+          "name": "Ontario Superior Court of Justice",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-003.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CONDO-015",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "endpointType": "CAT",
+      "authoritiesRef": [
+        "ON-CONDO-AUTH-001",
+        "ON-CONDO-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CONDO-AUTH-001",
+          "name": "Condominium Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-001.hint"
+        },
+        {
+          "id": "ON-CONDO-AUTH-002",
+          "name": "Condominium Authority Tribunal",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CONDO-016",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "endpointType": "CAT",
+      "authoritiesRef": [
+        "ON-CONDO-AUTH-001",
+        "ON-CONDO-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CONDO-AUTH-001",
+          "name": "Condominium Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-001.hint"
+        },
+        {
+          "id": "ON-CONDO-AUTH-002",
+          "name": "Condominium Authority Tribunal",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CONDO-017",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "endpointType": "FSRA",
+      "authoritiesRef": [
+        "ON-CONDO-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CONDO-AUTH-001",
+          "name": "Condominium Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CONDO-018",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "endpointType": "GATE",
+      "authoritiesRef": [
+        "ON-CONDO-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CONDO-AUTH-001",
+          "name": "Condominium Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CONDO-019",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "endpointType": "COURT",
+      "authoritiesRef": [
+        "ON-CONDO-AUTH-003"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CONDO-AUTH-003",
+          "name": "Ontario Superior Court of Justice",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-003.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CONDO-020",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "endpointType": "GATE",
+      "authoritiesRef": [
+        "ON-CONDO-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CONDO-AUTH-001",
+          "name": "Condominium Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CONDO-021",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "endpointType": "ADMIN",
+      "authoritiesRef": [
+        "ON-CONDO-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CONDO-AUTH-001",
+          "name": "Condominium Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CONDO-022",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "endpointType": "GATE",
+      "authoritiesRef": [
+        "ON-CONDO-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CONDO-AUTH-001",
+          "name": "Condominium Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CONDO-023",
+      "module": "CONDO",
+      "jurisdiction": "ON",
+      "routeFamily": "RECORD_CHAIN",
+      "endpointType": "GATE",
+      "authoritiesRef": [
+        "ON-CONDO-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CONDO-AUTH-001",
+          "name": "Condominium Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-condo-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-001",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-002",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-003",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_OBJECTION",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001",
+        "ON-CRA-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        },
+        {
+          "id": "ON-CRA-AUTH-002",
+          "name": "Tax Court of Canada",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-004",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_OBJECTION",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001",
+        "ON-CRA-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        },
+        {
+          "id": "ON-CRA-AUTH-002",
+          "name": "Tax Court of Canada",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-005",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "OMBUDSMAN",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-003"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-003",
+          "name": "Office of the Taxpayers' Ombudsperson",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-003.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-006",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-007",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-008",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_OBJECTION",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001",
+        "ON-CRA-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        },
+        {
+          "id": "ON-CRA-AUTH-002",
+          "name": "Tax Court of Canada",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-009",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-010",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-011",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-012",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-013",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "OMBUDSMAN",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-003"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-003",
+          "name": "Office of the Taxpayers' Ombudsperson",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-003.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-014",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "OMBUDSMAN",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-003"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-003",
+          "name": "Office of the Taxpayers' Ombudsperson",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-003.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-015",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-016",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_OBJECTION",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001",
+        "ON-CRA-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        },
+        {
+          "id": "ON-CRA-AUTH-002",
+          "name": "Tax Court of Canada",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-017",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-018",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-019",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_OBJECTION",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001",
+        "ON-CRA-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        },
+        {
+          "id": "ON-CRA-AUTH-002",
+          "name": "Tax Court of Canada",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-020",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "OMBUDSMAN",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-003"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-003",
+          "name": "Office of the Taxpayers' Ombudsperson",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-003.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-021",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_OBJECTION",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001",
+        "ON-CRA-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        },
+        {
+          "id": "ON-CRA-AUTH-002",
+          "name": "Tax Court of Canada",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-022",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_OBJECTION",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001",
+        "ON-CRA-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        },
+        {
+          "id": "ON-CRA-AUTH-002",
+          "name": "Tax Court of Canada",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-023",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_RELIEF",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-024",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_RELIEF",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-025",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-026",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-027",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-028",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-029",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-030",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-031",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-032",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-033",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-034",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_OBJECTION",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001",
+        "ON-CRA-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        },
+        {
+          "id": "ON-CRA-AUTH-002",
+          "name": "Tax Court of Canada",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-035",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-036",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-037",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_OBJECTION",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001",
+        "ON-CRA-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        },
+        {
+          "id": "ON-CRA-AUTH-002",
+          "name": "Tax Court of Canada",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-038",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_OBJECTION",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001",
+        "ON-CRA-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        },
+        {
+          "id": "ON-CRA-AUTH-002",
+          "name": "Tax Court of Canada",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-039",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-040",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_INTERNAL",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-041",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_OBJECTION",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001",
+        "ON-CRA-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        },
+        {
+          "id": "ON-CRA-AUTH-002",
+          "name": "Tax Court of Canada",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-042",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "CRA_RELIEF",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-043",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "OMBUDSMAN",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-003"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-003",
+          "name": "Office of the Taxpayers' Ombudsperson",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-003.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-044",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "OMBUDSMAN",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-003"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-003",
+          "name": "Office of the Taxpayers' Ombudsperson",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-003.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-045",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "TAX_COURT",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-002",
+          "name": "Tax Court of Canada",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-046",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "GATE",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-047",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "GATE",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CRA-048",
+      "module": "CRA",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "GATE",
+      "authoritiesRef": [
+        "ON-CRA-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CRA-AUTH-001",
+          "name": "Canada Revenue Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-cra-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-TL-T-01",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "LTB",
+      "authoritiesRef": [
+        "ON-TL-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-TL-AUTH-001",
+          "name": "Landlord and Tenant Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-tl-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-TL-T-02",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "LTB",
+      "authoritiesRef": [
+        "ON-TL-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-TL-AUTH-001",
+          "name": "Landlord and Tenant Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-tl-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-TL-T-03",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "LTB",
+      "authoritiesRef": [
+        "ON-TL-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-TL-AUTH-001",
+          "name": "Landlord and Tenant Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-tl-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-TL-T-04",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "LTB",
+      "authoritiesRef": [
+        "ON-TL-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-TL-AUTH-001",
+          "name": "Landlord and Tenant Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-tl-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-TL-T-05",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "LTB",
+      "authoritiesRef": [
+        "ON-TL-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-TL-AUTH-001",
+          "name": "Landlord and Tenant Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-tl-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-TL-T-06",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "HRTO",
+      "authoritiesRef": [
+        "ON-TL-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-TL-AUTH-002",
+          "name": "Human Rights Tribunal of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-tl-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-TL-T-07",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "ADMIN",
+      "authoritiesRef": [
+        "ON-TL-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-TL-AUTH-001",
+          "name": "Landlord and Tenant Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-tl-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-TL-L-01",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "LTB",
+      "authoritiesRef": [
+        "ON-TL-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-TL-AUTH-001",
+          "name": "Landlord and Tenant Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-tl-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-TL-L-02",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "LTB",
+      "authoritiesRef": [
+        "ON-TL-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-TL-AUTH-001",
+          "name": "Landlord and Tenant Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-tl-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-TL-L-03",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "LTB",
+      "authoritiesRef": [
+        "ON-TL-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-TL-AUTH-001",
+          "name": "Landlord and Tenant Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-tl-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-TL-L-04",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "LTB_SHERIFF",
+      "authoritiesRef": [
+        "ON-TL-AUTH-001",
+        "ON-TL-AUTH-004"
+      ],
+      "authorities": [
+        {
+          "id": "ON-TL-AUTH-001",
+          "name": "Landlord and Tenant Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-tl-auth-001.hint"
+        },
+        {
+          "id": "ON-TL-AUTH-004",
+          "name": "Ontario Sheriff (Enforcement Office)",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-tl-auth-004.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-TL-G-01",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "GATE",
+      "authoritiesRef": [
+        "ON-TL-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-TL-AUTH-001",
+          "name": "Landlord and Tenant Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-tl-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-TL-G-02",
+      "module": "TL",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "GATE",
+      "authoritiesRef": [
+        "ON-TL-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-TL-AUTH-001",
+          "name": "Landlord and Tenant Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-tl-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-INS-001",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "FSRA",
+      "authoritiesRef": [
+        "ON-INS-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-INS-AUTH-001",
+          "name": "Financial Services Regulatory Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-ins-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-INS-010",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "LAT",
+      "authoritiesRef": [
+        "ON-INS-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-INS-AUTH-002",
+          "name": "Licence Appeal Tribunal",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-ins-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-INS-018",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "FSRA",
+      "authoritiesRef": [
+        "ON-INS-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-INS-AUTH-001",
+          "name": "Financial Services Regulatory Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-ins-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-INS-024",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "FSRA",
+      "authoritiesRef": [
+        "ON-INS-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-INS-AUTH-001",
+          "name": "Financial Services Regulatory Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-ins-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-INS-028",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "FSRA",
+      "authoritiesRef": [
+        "ON-INS-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-INS-AUTH-001",
+          "name": "Financial Services Regulatory Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-ins-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-INS-034",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "FSRA",
+      "authoritiesRef": [
+        "ON-INS-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-INS-AUTH-001",
+          "name": "Financial Services Regulatory Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-ins-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-INS-038",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "FSRA",
+      "authoritiesRef": [
+        "ON-INS-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-INS-AUTH-001",
+          "name": "Financial Services Regulatory Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-ins-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-INS-043",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "OIC",
+      "authoritiesRef": [
+        "ON-INS-AUTH-003"
+      ],
+      "authorities": [
+        {
+          "id": "ON-INS-AUTH-003",
+          "name": "OmbudService for Life & Health Insurance",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-ins-auth-003.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-INS-048",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "FSRA",
+      "authoritiesRef": [
+        "ON-INS-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-INS-AUTH-001",
+          "name": "Financial Services Regulatory Authority of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-ins-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-INS-053",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "COURT",
+      "authoritiesRef": [
+        "ON-INS-AUTH-004"
+      ],
+      "authorities": [
+        {
+          "id": "ON-INS-AUTH-004",
+          "name": "Ontario Superior Court of Justice",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-ins-auth-004.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-INS-057",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "SMALL_CLAIMS",
+      "authoritiesRef": [
+        "ON-INS-AUTH-005"
+      ],
+      "authorities": [
+        {
+          "id": "ON-INS-AUTH-005",
+          "name": "Ontario Small Claims Court",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-ins-auth-005.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-INS-061",
+      "module": "INSURANCE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "LAT",
+      "authoritiesRef": [
+        "ON-INS-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-INS-AUTH-002",
+          "name": "Licence Appeal Tribunal",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-ins-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-001",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "CPO",
+      "authoritiesRef": [
+        "ON-CON-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-001",
+          "name": "Consumer Protection Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-002",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "CPO",
+      "authoritiesRef": [
+        "ON-CON-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-001",
+          "name": "Consumer Protection Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-003",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "CPO",
+      "authoritiesRef": [
+        "ON-CON-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-001",
+          "name": "Consumer Protection Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-004",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "CPO",
+      "authoritiesRef": [
+        "ON-CON-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-001",
+          "name": "Consumer Protection Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-005",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "CPO",
+      "authoritiesRef": [
+        "ON-CON-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-001",
+          "name": "Consumer Protection Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-006",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "CPO",
+      "authoritiesRef": [
+        "ON-CON-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-001",
+          "name": "Consumer Protection Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-007",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "CPO",
+      "authoritiesRef": [
+        "ON-CON-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-001",
+          "name": "Consumer Protection Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-008",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "CPO",
+      "authoritiesRef": [
+        "ON-CON-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-001",
+          "name": "Consumer Protection Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-009",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "CPO",
+      "authoritiesRef": [
+        "ON-CON-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-001",
+          "name": "Consumer Protection Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-010",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "CPO",
+      "authoritiesRef": [
+        "ON-CON-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-001",
+          "name": "Consumer Protection Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-011",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "FCAC",
+      "authoritiesRef": [
+        "ON-CON-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-002",
+          "name": "Financial Consumer Agency of Canada",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-012",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "FCAC",
+      "authoritiesRef": [
+        "ON-CON-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-002",
+          "name": "Financial Consumer Agency of Canada",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-013",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "FCAC",
+      "authoritiesRef": [
+        "ON-CON-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-002",
+          "name": "Financial Consumer Agency of Canada",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-014",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "OBSI",
+      "authoritiesRef": [
+        "ON-CON-AUTH-006"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-006",
+          "name": "Ombudsman for Banking Services and Investments",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-006.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-015",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "FCAC",
+      "authoritiesRef": [
+        "ON-CON-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-002",
+          "name": "Financial Consumer Agency of Canada",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-016",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "FCAC",
+      "authoritiesRef": [
+        "ON-CON-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-002",
+          "name": "Financial Consumer Agency of Canada",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-017",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "FCAC",
+      "authoritiesRef": [
+        "ON-CON-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-002",
+          "name": "Financial Consumer Agency of Canada",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-018",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "SMALL_CLAIMS",
+      "authoritiesRef": [
+        "ON-CON-AUTH-003"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-003",
+          "name": "Ontario Small Claims Court",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-003.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-019",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "SMALL_CLAIMS",
+      "authoritiesRef": [
+        "ON-CON-AUTH-003"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-003",
+          "name": "Ontario Small Claims Court",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-003.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-020",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "SMALL_CLAIMS",
+      "authoritiesRef": [
+        "ON-CON-AUTH-003"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-003",
+          "name": "Ontario Small Claims Court",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-003.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-021",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "SMALL_CLAIMS",
+      "authoritiesRef": [
+        "ON-CON-AUTH-003"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-003",
+          "name": "Ontario Small Claims Court",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-003.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-022",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "CCTS_OEB",
+      "authoritiesRef": [
+        "ON-CON-AUTH-004"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-004",
+          "name": "Commission for Complaints for Telecom-television Services / Ontario Energy Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-004.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-023",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "CCTS_OEB",
+      "authoritiesRef": [
+        "ON-CON-AUTH-004"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-004",
+          "name": "Commission for Complaints for Telecom-television Services / Ontario Energy Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-004.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-024",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "CCTS_OEB",
+      "authoritiesRef": [
+        "ON-CON-AUTH-004"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-004",
+          "name": "Commission for Complaints for Telecom-television Services / Ontario Energy Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-004.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-025",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "CCTS_OEB",
+      "authoritiesRef": [
+        "ON-CON-AUTH-004"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-004",
+          "name": "Commission for Complaints for Telecom-television Services / Ontario Energy Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-004.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-026",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "CTA",
+      "authoritiesRef": [
+        "ON-CON-AUTH-005"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-005",
+          "name": "Canadian Transportation Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-005.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-027",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "CTA",
+      "authoritiesRef": [
+        "ON-CON-AUTH-005"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-005",
+          "name": "Canadian Transportation Agency",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-005.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-028",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "OPC",
+      "authoritiesRef": [
+        "ON-CON-AUTH-007"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-007",
+          "name": "Office of the Privacy Commissioner of Canada",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-007.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-CON-029",
+      "module": "CONSUMER",
+      "jurisdiction": "ON",
+      "routeFamily": "REGULATOR_CHAIN",
+      "endpointType": "HEALTH_CA",
+      "authoritiesRef": [
+        "ON-CON-AUTH-008"
+      ],
+      "authorities": [
+        {
+          "id": "ON-CON-AUTH-008",
+          "name": "Health Canada — Consumer Product Safety",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-con-auth-008.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-001",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "WSIB",
+      "authoritiesRef": [
+        "ON-WP-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-001",
+          "name": "Workplace Safety and Insurance Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-002",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "WSIB",
+      "authoritiesRef": [
+        "ON-WP-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-001",
+          "name": "Workplace Safety and Insurance Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-003",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "WSIB",
+      "authoritiesRef": [
+        "ON-WP-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-001",
+          "name": "Workplace Safety and Insurance Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-004",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "WSIB",
+      "authoritiesRef": [
+        "ON-WP-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-001",
+          "name": "Workplace Safety and Insurance Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-005",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "WSIB",
+      "authoritiesRef": [
+        "ON-WP-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-001",
+          "name": "Workplace Safety and Insurance Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-006",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "WSIB",
+      "authoritiesRef": [
+        "ON-WP-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-001",
+          "name": "Workplace Safety and Insurance Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-007",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "WSIB",
+      "authoritiesRef": [
+        "ON-WP-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-001",
+          "name": "Workplace Safety and Insurance Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-008",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "WSIB",
+      "authoritiesRef": [
+        "ON-WP-AUTH-001"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-001",
+          "name": "Workplace Safety and Insurance Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-001.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-009",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "ESO",
+      "authoritiesRef": [
+        "ON-WP-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-002",
+          "name": "Ontario Ministry of Labour — Employment Standards",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-010",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "ESO",
+      "authoritiesRef": [
+        "ON-WP-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-002",
+          "name": "Ontario Ministry of Labour — Employment Standards",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-011",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "ESO",
+      "authoritiesRef": [
+        "ON-WP-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-002",
+          "name": "Ontario Ministry of Labour — Employment Standards",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-012",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "ESO",
+      "authoritiesRef": [
+        "ON-WP-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-002",
+          "name": "Ontario Ministry of Labour — Employment Standards",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-013",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "ESO",
+      "authoritiesRef": [
+        "ON-WP-AUTH-002"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-002",
+          "name": "Ontario Ministry of Labour — Employment Standards",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-002.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-014",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "OLRB",
+      "authoritiesRef": [
+        "ON-WP-AUTH-006"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-006",
+          "name": "Ontario Labour Relations Board",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-006.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-015",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "HRTO",
+      "authoritiesRef": [
+        "ON-WP-AUTH-003"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-003",
+          "name": "Human Rights Tribunal of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-003.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-016",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "HRTO",
+      "authoritiesRef": [
+        "ON-WP-AUTH-003"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-003",
+          "name": "Human Rights Tribunal of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-003.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-017",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "HRTO",
+      "authoritiesRef": [
+        "ON-WP-AUTH-003"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-003",
+          "name": "Human Rights Tribunal of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-003.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-018",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "HRTO",
+      "authoritiesRef": [
+        "ON-WP-AUTH-003"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-003",
+          "name": "Human Rights Tribunal of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-003.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-019",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "HRTO",
+      "authoritiesRef": [
+        "ON-WP-AUTH-003"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-003",
+          "name": "Human Rights Tribunal of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-003.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-020",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "HRTO",
+      "authoritiesRef": [
+        "ON-WP-AUTH-003"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-003",
+          "name": "Human Rights Tribunal of Ontario",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-003.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-021",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "MOL_OHS",
+      "authoritiesRef": [
+        "ON-WP-AUTH-004"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-004",
+          "name": "Ontario Ministry of Labour — Occupational Health and Safety",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-004.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-022",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "MOL_OHS",
+      "authoritiesRef": [
+        "ON-WP-AUTH-004"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-004",
+          "name": "Ontario Ministry of Labour — Occupational Health and Safety",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-004.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-023",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "MOL_OHS",
+      "authoritiesRef": [
+        "ON-WP-AUTH-004"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-004",
+          "name": "Ontario Ministry of Labour — Occupational Health and Safety",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-004.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-024",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "MOL_OHS",
+      "authoritiesRef": [
+        "ON-WP-AUTH-004"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-004",
+          "name": "Ontario Ministry of Labour — Occupational Health and Safety",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-004.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-025",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "MOL_OHS",
+      "authoritiesRef": [
+        "ON-WP-AUTH-004"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-004",
+          "name": "Ontario Ministry of Labour — Occupational Health and Safety",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-004.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-026",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "ESDC_EI",
+      "authoritiesRef": [
+        "ON-WP-AUTH-005"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-005",
+          "name": "Employment and Social Development Canada — Employment Insurance",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-005.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-027",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "ESDC_EI",
+      "authoritiesRef": [
+        "ON-WP-AUTH-005"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-005",
+          "name": "Employment and Social Development Canada — Employment Insurance",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-005.hint"
+        }
+      ]
+    },
+    {
+      "scenarioId": "ON-WP-028",
+      "module": "WORKPLACE",
+      "jurisdiction": "ON",
+      "routeFamily": "INTERNAL_COMPLAINT_CHAIN",
+      "endpointType": "ESDC_EI",
+      "authoritiesRef": [
+        "ON-WP-AUTH-005"
+      ],
+      "authorities": [
+        {
+          "id": "ON-WP-AUTH-005",
+          "name": "Employment and Social Development Canada — Employment Insurance",
+          "jurisdiction": "ON",
+          "authorityHintKey": "on-wp-auth-005.hint"
+        }
+      ]
+    }
+  ]
+}
