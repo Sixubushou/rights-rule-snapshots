@@ -1,0 +1,1 @@
+# rights-rule-snapshots
